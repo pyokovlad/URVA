@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <title>Поставки | Учебная рота и Военная академия</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+
+ 
+    <header class="header">
+        <div class="container header__inner">
+            <a href="index.html" class="brand">
+                <img src="img/logo.png" alt="Эмблема" class="brand__logo">
+                <div class="brand__text">
+                    <span class="brand__title">Учебная рота и ВА</span>
+                    <span class="brand__subtitle">1-я мотострелковая бригада • RMRP Кутузовский</span>
+                </div>
+            </a>
+            <div class="search">
+                <input type="text" class="search__input" id="searchInput" placeholder="🔍 Поиск..." autocomplete="off">
+                <button class="search__clear" id="searchClear" type="button" aria-label="Очистить">✕</button>
+                <div class="search__results" id="searchResults"></div>
+            </div>
+            <button class="burger" id="burgerBtn" aria-label="Открыть меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+ 
+    <nav class="nav" id="mainNav">
+        <div class="container nav__inner">
+            <div class="nav__group">
+                <span class="nav__group-label">Первые шаги</span>
+                <a href="index.html" class="nav__link">🏠 Главная</a>
+                <a href="briefing.html" class="nav__link">📚 Вводный инструктаж</a>
+                <a href="dictionary.html" class="nav__link">📖 Словарь</a>
+            </div>
+            <div class="nav__group">
+                <span class="nav__group-label">Обучение</span>
+                <a href="ur.html" class="nav__link">🪖 Учебная рота</a>
+                <a href="va.html" class="nav__link">🎓 Военная академия</a>
+                <a href="materials.html" class="nav__link">📚 Материалы</a>
+                <a href="codes.html" class="nav__link">🚨 Коды реагирования</a>
+                <a href="oath.html" class="nav__link">🪖 Присяга</a>
+            </div>
+            <div class="nav__group">
+                <span class="nav__group-label">Служба</span>
+                <a href="posts.html" class="nav__link">🛡 Посты</a>
+                <a href="supplies.html" class="nav__link active">📦 Поставки</a>
+                <a href="promotion.html" class="nav__link">📈 Повышение</a>
+            </div>
+            <div class="nav__group">
+                <span class="nav__group-label">Помощь</span>
+                <a href="leadership.html" class="nav__link">⭐ Командование</a>
+                <a href="faq.html" class="nav__link">❓ FAQ</a>
+            </div>
+        </div>
+    </nav>
+
+ 
+    <main class="main">
+        <div class="container">
+
+         
+            <section class="hero small">
+                <h1 class="hero__title">📦 Поставки</h1>
+                <p class="hero__subtitle">Доставка грузов на объекты</p>
+                <p class="hero__text">
+                    Поставки — обязательный критерий повышения в Учебной роте и Военной академии.
+                    Здесь ты найдёшь все поставочные объекты и требования к выполнению.
+                </p>
+            </section>
+
+         
+            <section class="section">
+                <div class="warning-box">
+                    <p>
+                        ⚠ <strong>Важно!</strong> При выполнении поставок
+                        <strong>бодикамера должна быть включена</strong>.
+                        Без записи бодикамеры скриншоты не засчитываются.
+                    </p>
+                </div>
+            </section>
+
+         
+            <section class="section">
+                <h2 class="section__title">🎯 Как участвовать в поставке</h2>
+
+                <div class="supply-steps">
+                    <div class="supply-step">
+                        <div class="supply-step__number">1</div>
+                        <div class="supply-step__content">
+                            <h4>Сбор на поставку</h4>
+                            <p>При объявлении сбора в Discord или рации незамедлительно прибыть в указанное место построения.</p>
+                        </div>
+                    </div>
+
+                    <div class="supply-step">
+                        <div class="supply-step__number">2</div>
+                        <div class="supply-step__content">
+                            <h4>Включи бодикамеру</h4>
+                            <p>Перед началом поставки обязательно включи бодикамеру. Без неё скриншоты не засчитываются.</p>
+                        </div>
+                    </div>
+
+                    <div class="supply-step">
+                        <div class="supply-step__number">3</div>
+                        <div class="supply-step__content">
+                            <h4>Получи ящик</h4>
+                            <p>Возьми ящик с грузом у ответственного. Ящик должен быть в руках на скриншоте.</p>
+                        </div>
+                    </div>
+
+                    <div class="supply-step">
+                        <div class="supply-step__number">4</div>
+                        <div class="supply-step__content">
+                            <h4>Доставь груз на объект</h4>
+                            <p>Отвези ящик на указанный поставочный объект и встань на жёлтую линию поставки.</p>
+                        </div>
+                    </div>
+
+                    <div class="supply-step">
+                        <div class="supply-step__number">5</div>
+                        <div class="supply-step__content">
+                            <h4>Сделай скриншот</h4>
+                            <p>Сделай скриншот всего экрана. На нём должен быть виден ящик в руках или жёлтая линия поставки.</p>
+                        </div>
+                    </div>
+
+                    <div class="supply-step">
+                        <div class="supply-step__number">6</div>
+                        <div class="supply-step__content">
+                            <h4>Сохрани скриншот</h4>
+                            <p>Сохрани скриншот в папку для отчётов. 1 скриншот = 1 поставка.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+         
+            <section class="section">
+                <h2 class="section__title">📸 Требования к скриншотам</h2>
+
+                <div class="cards-grid">
+                    <div class="card">
+                        <span class="card__icon">🖥</span>
+                        <h3 class="card__title">Скриншот всего экрана</h3>
+                        <p class="card__text">
+                            Скриншот должен быть полного экрана, а не отдельного окна.
+                            Видно должно быть всё игровое пространство.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <span class="card__icon">📦</span>
+                        <h3 class="card__title">Ящик в руках</h3>
+                        <p class="card__text">
+                            На скриншоте должен быть виден военнослужащий с ящиком в руках
+                            либо стоящий на жёлтой линии поставки.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <span class="card__icon">📹</span>
+                        <h3 class="card__title">Бодикамера включена</h3>
+                        <p class="card__text">
+                            Бодикамера должна быть включена на протяжении всей поставки.
+                            Без неё скриншот не засчитывается.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <span class="card__icon">🔢</span>
+                        <h3 class="card__title">1 скриншот = 1 поставка</h3>
+                        <p class="card__text">
+                            Каждый скриншот подтверждает одну поставку.
+                            Для нескольких поставок нужно несколько скриншотов.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+         
+            <section class="section">
+                <h2 class="section__title">📊 Количество поставок для повышения</h2>
+
+                <div class="comparison-table-wrapper">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Повышение</th>
+                                <th>🪖 Учебная рота</th>
+                                <th>🎓 Военная академия</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Рядовой → Ефрейтор</strong></td>
+                                <td>2 поставки</td>
+                                <td>3 поставки</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Ефрейтор → Мл. сержант</strong></td>
+                                <td>4 поставки</td>
+                                <td>6 поставок</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Мл. сержант → Сержант</strong></td>
+                                <td>❌ Недоступно</td>
+                                <td>6 поставок</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+         
+            <section class="section">
+                <h2 class="section__title">🗺 Поставочные объекты</h2>
+
+                <p class="section__subtitle">
+                    Всего на карте 7 поставочных объектов. Для выполнения поставки
+                    необходимо доставить груз на один из них.
+                </p>
+
+                <div class="supply-objects">
+                    <div class="supply-object">
+                        <div class="supply-object__header">
+                            <span class="supply-object__icon">🏥</span>
+                            <div>
+                                <h3 class="supply-object__title">Медицинские склады</h3>
+                                <span class="supply-object__abbr">МС</span>
+                            </div>
+                        </div>
+                        <div class="supply-object__image-placeholder">
+                            <span>🗺</span>
+                            <p>Карта объекта МС</p>
+                        </div>
+                        <p class="supply-object__desc">
+                            Склады медицинского имущества. Один из основных поставочных объектов.
+                        </p>
+                    </div>
+
+                    <div class="supply-object">
+                        <div class="supply-object__header">
+                            <span class="supply-object__icon">📡</span>
+                            <div>
+                                <h3 class="supply-object__title">РЛС «Орбита»</h3>
+                                <span class="supply-object__abbr">РЛС</span>
+                            </div>
+                        </div>
+                        <div class="supply-object__image-placeholder">
+                            <span>🗺</span>
+                            <p>Карта объекта РЛС</p>
+                        </div>
+                        <p class="supply-object__desc">
+                            Радиолокационная станция «Орбита». Объект наблюдения и связи.
+                        </p>
+                    </div>
+
+                    <div class="supply-object">
+                        <div class="supply-object__header">
+                            <span class="supply-object__icon">🏢</span>
+                            <div>
+                                <h3 class="supply-object__title">Объект №7</h3>
+                                <span class="supply-object__abbr">Об7</span>
+                            </div>
+                        </div>
+                        <div class="supply-object__image-placeholder">
+                            <span>🗺</span>
+                            <p>Карта объекта Об7</p>
+                        </div>
+                        <p class="supply-object__desc">
+                            Секретный объект под номером 7. Точное назначение засекречено.
+                        </p>
+                    </div>
+
+                    <div class="supply-object">
+                        <div class="supply-object__header">
+                            <span class="supply-object__icon">📦</span>
+                            <div>
+                                <h3 class="supply-object__title">Военные склады / ГСМО</h3>
+                                <span class="supply-object__abbr">ВС / ГСМО</span>
+                            </div>
+                        </div>
+                        <div class="supply-object__image-placeholder">
+                            <span>🗺</span>
+                            <p>Карта объекта ВС/ГСМО</p>
+                        </div>
+                        <p class="supply-object__desc">
+                            Военные склады и Государственные склады медицинского оборудования.
+                            Крупный поставочный узел.
+                        </p>
+                    </div>
+
+                    <div class="supply-object">
+                        <div class="supply-object__header">
+                            <span class="supply-object__icon">💰</span>
+                            <div>
+                                <h3 class="supply-object__title">Финансовая поставка</h3>
+                                <span class="supply-object__abbr">Фин</span>
+                            </div>
+                        </div>
+                        <div class="supply-object__image-placeholder">
+                            <span>🗺</span>
+                            <p>Карта финансовой поставки</p>
+                        </div>
+                        <p class="supply-object__desc">
+                            Особый тип поставки, связанный с финансовым обеспечением подразделения.
+                        </p>
+                    </div>
+
+                    <div class="supply-object">
+                        <div class="supply-object__header">
+                            <span class="supply-object__icon">🏛</span>
+                            <div>
+                                <h3 class="supply-object__title">Зарайское мед. хранилище</h3>
+                                <span class="supply-object__abbr">ЗМХ</span>
+                            </div>
+                        </div>
+                        <div class="supply-object__image-placeholder">
+                            <span>🗺</span>
+                            <p>Карта объекта ЗМХ</p>
+                        </div>
+                        <p class="supply-object__desc">
+                            Зарайское медицинское хранилище. Объект для хранения медицинских запасов.
+                        </p>
+                    </div>
+
+                    <div class="supply-object">
+                        <div class="supply-object__header">
+                            <span class="supply-object__icon">🏥</span>
+                            <div>
+                                <h3 class="supply-object__title">Центральные мед. склады</h3>
+                                <span class="supply-object__abbr">ЦМС</span>
+                            </div>
+                        </div>
+                        <div class="supply-object__image-placeholder">
+                            <span>🗺</span>
+                            <p>Карта объекта ЦМС</p>
+                        </div>
+                        <p class="supply-object__desc">
+                            Центральные медицинские склады. Главный медицинский узел снабжения.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+         
+            <section class="section">
+                <h2 class="section__title">💡 Советы</h2>
+
+                <div class="cards-grid">
+                    <div class="card">
+                        <span class="card__icon">📂</span>
+                        <h3 class="card__title">Создай папку заранее</h3>
+                        <p class="card__text">
+                            Создай отдельную папку для скриншотов поставок сразу после поступления.
+                            Так ты не потеряешь подтверждающие материалы.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <span class="card__icon">🔢</span>
+                        <h3 class="card__title">Подписывай скриншоты</h3>
+                        <p class="card__text">
+                            Подписывай каждый скриншот: дата, объект, номер поставки.
+                            Так легче отчитываться о выполнении критериев.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <span class="card__icon">⏰</span>
+                        <h3 class="card__title">Не откладывай</h3>
+                        <p class="card__text">
+                            Поставки занимают время. Начни выполнять их заранее,
+                            чтобы успеть к моменту повышения.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+         
+            <section class="section">
+                <div class="cta-box">
+                    <h3 class="cta-box__title">📈 Что дальше?</h3>
+                    <p class="cta-box__text">
+                        Изучи критерии повышения и узнай, какие ещё требования
+                        нужно выполнить для получения нового звания.
+                    </p>
+                    <a href="promotion.html" class="btn btn--primary">📈 Перейти к повышению</a>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+ 
+<footer class="footer">
+    <div class="container footer__inner">
+        <div class="footer__unit">
+            <p class="footer__line">Учебная рота и Военная академия</p>
+            <p class="footer__line">1-я мотострелковая бригада • Войсковая часть №12132</p>
+            <p class="footer__line">RMRP • Кутузовский</p>
+        </div>
+        <div class="footer__developer">
+            <div class="footer__developer-icon">🛠</div>
+            <div class="footer__developer-info">
+                <span class="footer__developer-label">Разработано</span>
+                <span class="footer__developer-name">pyoko</span>
+                <div class="footer__developer-meta">
+                    <span>In-game: <strong>Владислав Боня</strong></span>
+                    <span class="footer__developer-divider">•</span>
+                    <a href="https://discord.com/users/pyokovlad" target="_blank" class="footer__developer-contact">
+                        @pyokovlad
+                    </a>
+                </div>
+            </div>
+        </div>
+        <p class="footer__copy">© 2026 Учебный батальон. Все права защищены.</p>
+    </div>
+</footer>
+
+ 
+    <div class="chatbot">
+        <button class="chatbot__toggle" id="chatbotToggle" aria-label="Открыть помощника">
+            <span class="chatbot__toggle-icon">🤖</span>
+        </button>
+        <div class="chatbot__window" id="chatbotWindow">
+            <div class="chatbot__header">
+                <div class="chatbot__header-info">
+                    <span class="chatbot__header-avatar">🎖</span>
+                    <div>
+                        <div class="chatbot__header-title">Помощник новобранца</div>
+                        <div class="chatbot__header-status">
+                            <span class="chatbot__status-dot"></span>
+                            Онлайн
+                        </div>
+                    </div>
+                </div>
+                <button class="chatbot__close" id="chatbotClose" aria-label="Закрыть">✕</button>
+            </div>
+            <div class="chatbot__messages" id="chatbotMessages">
+                <div class="chatbot__message chatbot__message--bot">
+                    <div class="chatbot__message-bubble">
+                        Привет, боец! 👋 Задай вопрос или выбери из списка ниже.
+                    </div>
+                </div>
+            </div>
+            <div class="chatbot__quick-questions" id="chatbotQuick">
+                <button class="chatbot__quick-btn" data-question="Что такое статик?">📋 Статик</button>
+                <button class="chatbot__quick-btn" data-question="Что такое todo?">📝 todo</button>
+                <button class="chatbot__quick-btn" data-question="Что такое КОД-2?">🚨 КОД-2</button>
+                <button class="chatbot__quick-btn" data-question="Как стать ефрейтором?">📈 Повышение</button>
+            </div>
+            <div class="chatbot__input-area">
+                <input type="text" class="chatbot__input" id="chatbotInput" placeholder="Напиши свой вопрос..." autocomplete="off">
+                <button class="chatbot__send" id="chatbotSend" aria-label="Отправить">➤</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

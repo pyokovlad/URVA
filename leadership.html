@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <title>Командование | Учебная рота и Военная академия</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+
+ 
+    <header class="header">
+        <div class="container header__inner">
+            <a href="index.html" class="brand">
+                <img src="img/logo.png" alt="Эмблема" class="brand__logo">
+                <div class="brand__text">
+                    <span class="brand__title">Учебная рота и ВА</span>
+                    <span class="brand__subtitle">1-я мотострелковая бригада • RMRP Кутузовский</span>
+                </div>
+            </a>
+            <div class="search">
+                <input type="text" class="search__input" id="searchInput" placeholder="🔍 Поиск..." autocomplete="off">
+                <button class="search__clear" id="searchClear" type="button" aria-label="Очистить">✕</button>
+                <div class="search__results" id="searchResults"></div>
+            </div>
+            <button class="burger" id="burgerBtn" aria-label="Открыть меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+ 
+    <nav class="nav" id="mainNav">
+        <div class="container nav__inner">
+            <div class="nav__group">
+                <span class="nav__group-label">Первые шаги</span>
+                <a href="index.html" class="nav__link">🏠 Главная</a>
+                <a href="briefing.html" class="nav__link">📚 Вводный инструктаж</a>
+                <a href="dictionary.html" class="nav__link">📖 Словарь</a>
+            </div>
+            <div class="nav__group">
+                <span class="nav__group-label">Обучение</span>
+                <a href="ur.html" class="nav__link">🪖 Учебная рота</a>
+                <a href="va.html" class="nav__link">🎓 Военная академия</a>
+                <a href="materials.html" class="nav__link">📚 Материалы</a>
+                <a href="codes.html" class="nav__link">🚨 Коды реагирования</a>
+                <a href="oath.html" class="nav__link">🪖 Присяга</a>
+            </div>
+            <div class="nav__group">
+                <span class="nav__group-label">Служба</span>
+                <a href="posts.html" class="nav__link">🛡 Посты</a>
+                <a href="supplies.html" class="nav__link">📦 Поставки</a>
+                <a href="promotion.html" class="nav__link">📈 Повышение</a>
+            </div>
+            <div class="nav__group">
+                <span class="nav__group-label">Помощь</span>
+                <a href="leadership.html" class="nav__link active">⭐ Командование</a>
+                <a href="faq.html" class="nav__link">❓ FAQ</a>
+            </div>
+        </div>
+    </nav>
+
+ 
+    <main class="main">
+        <div class="container">
+
+         
+            <section class="hero small">
+                <h1 class="hero__title">⭐ Командование</h1>
+                <p class="hero__subtitle">Руководящий состав Учебного батальона</p>
+                <p class="hero__text">
+                    Здесь ты найдёшь информацию о командовании Учебного батальона
+                    и узнаешь, к кому обращаться по различным вопросам.
+                </p>
+            </section>
+
+         
+<section class="section">
+    <h2 class="section__title">🎖 Учебный батальон</h2>
+    <p class="section__subtitle">
+        Руководство, с которым ты будешь взаимодействовать напрямую.
+    </p>
+
+    <div class="leaders-grid">
+     
+        <div class="leader-card">
+            <div class="leader-card__photo">
+                <img src="img/leadership/komuchbr.png" alt="Левицкий Алексей Михайлович">
+            </div>
+            <div class="leader-card__info">
+                <span class="leader-card__rank">Подполковник</span>
+                <h3 class="leader-card__name">Левицкий Алексей Михайлович</h3>
+                <p class="leader-card__position">Командир Учебного батальона</p>
+            </div>
+        </div>
+
+     
+        <div class="leader-card">
+            <div class="leader-card__photo">
+                <img src="img/leadership/zam_komuch.jpg" alt="Третьяков Денис Алексеевич">
+            </div>
+            <div class="leader-card__info">
+                <span class="leader-card__rank">Майор</span>
+                <h3 class="leader-card__name">Третьяков Денис Алексеевич</h3>
+                <p class="leader-card__position">Заместитель командира Учебного батальона</p>
+            </div>
+        </div>
+
+     
+        <div class="leader-card">
+            <div class="leader-card__photo">
+                <img src="img/leadership/nach_otdel_kadr.jpg" alt="Волнов Евгений Бобович">
+            </div>
+            <div class="leader-card__info">
+                <span class="leader-card__rank">Капитан</span>
+                <h3 class="leader-card__name">Волнов Евгений Бобович</h3>
+                <p class="leader-card__position">Начальник отдела кадров</p>
+            </div>
+        </div>
+
+     
+        <div class="leader-card leader-card--highlight">
+            <div class="leader-card__badge">🪖 Твой командир (УР)</div>
+            <div class="leader-card__photo">
+                <img src="img/leadership/kom_ucheb_rota.png" alt="Андерсон Иван Викторович">
+            </div>
+            <div class="leader-card__info">
+                <span class="leader-card__rank">Капитан</span>
+                <h3 class="leader-card__name">Андерсон Иван Викторович</h3>
+                <p class="leader-card__position">Командир Учебной роты</p>
+            </div>
+        </div>
+
+     
+        <div class="leader-card leader-card--highlight">
+            <div class="leader-card__badge">🎓 Твой командир (ВА)</div>
+            <div class="leader-card__photo">
+                <img src="img/leadership/vacant.png" alt="Вакант">
+            </div>
+            <div class="leader-card__info">
+                <span class="leader-card__rank">Капитан</span>
+                <h3 class="leader-card__name">ВАКАНТ</h3>
+                <p class="leader-card__position">Начальник Военной академии</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+         
+            <section class="section">
+                <h2 class="section__title">📞 К кому обращаться?</h2>
+                <p class="section__subtitle">
+                    В зависимости от ситуации, обращайся к соответствующему командиру.
+                </p>
+
+                <div class="cards-grid">
+                    <div class="card">
+                        <span class="card__icon">📚</span>
+                        <h3 class="card__title">Проблема с обучением</h3>
+                        <p class="card__text">
+                            Если у тебя возникли трудности с лекциями, тренировками
+                            или критериями повышения — обращайся к своему непосредственному
+                            командиру.
+                        </p>
+                        <p class="card__contact">
+                            🪖 УР: Командир Учебной роты<br>
+                            🎓 ВА: Начальник Военной академии
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <span class="card__icon">🎖</span>
+                        <h3 class="card__title">Вопрос по званию</h3>
+                        <p class="card__text">
+                            Вопросы о присвоении званий, переводах и кадровой
+                            документации решает отдел кадров.
+                        </p>
+                        <p class="card__contact">
+                            📋 Начальник отдела кадров
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <span class="card__icon">⚠️</span>
+                        <h3 class="card__title">Жалоба или конфликт</h3>
+                        <p class="card__text">
+                            Если проблема не решается на уровне роты, обращайся
+                            к заместителю командира Учебного батальона.
+                        </p>
+                        <p class="card__contact">
+                            🎖 Заместитель командира УБ
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <span class="card__icon">💬</span>
+                        <h3 class="card__title">Общий вопрос</h3>
+                        <p class="card__text">
+                            По общим вопросам службы, дисциплины и порядка
+                            обращайся к командиру Учебного батальона.
+                        </p>
+                        <p class="card__contact">
+                            ⭐ Командир Учебного батальона
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+         
+            <section class="section">
+                <h2 class="section__title">⚔ ВЧ №12132</h2>
+                <p class="section__subtitle">
+                    Руководство бригады, в состав которой входит Учебный батальон.
+                </p>
+
+                <div class="leaders-compact">
+                    <div class="leader-compact">
+                        <span class="leader-compact__rank">Генерал-Полковник</span>
+                        <span class="leader-compact__name">Павленков Роман Васильевич</span>
+                        <span class="leader-compact__position">Командир бригады</span>
+                    </div>
+
+                    <div class="leader-compact">
+                        <span class="leader-compact__rank">Генерал-Майор</span>
+                        <span class="leader-compact__name">Павленков Евгений Евгеньевич</span>
+                        <span class="leader-compact__position">1-й заместитель командира</span>
+                    </div>
+
+                    <div class="leader-compact">
+                        <span class="leader-compact__rank">Полковник</span>
+                        <span class="leader-compact__name">Лодброк Рагнар Эрикович</span>
+                        <span class="leader-compact__position">Начальник штаба</span>
+                    </div>
+
+                    <div class="leader-compact">
+                        <span class="leader-compact__rank">Полковник</span>
+                        <span class="leader-compact__name">Редько Александр Александрович</span>
+                        <span class="leader-compact__position">Заместитель по МТО</span>
+                    </div>
+                </div>
+            </section>
+
+         
+            <section class="section">
+                <h2 class="section__title">🏛 Министерство Обороны РФ</h2>
+                <p class="section__subtitle">
+                    Высшее руководство Вооружённых Сил Российской Федерации.
+                </p>
+
+                <div class="leaders-compact">
+                    <div class="leader-compact">
+                        <span class="leader-compact__rank">Генерал-Майор</span>
+                        <span class="leader-compact__name">Маркелов Александр Львович</span>
+                        <span class="leader-compact__position">Министр Обороны РФ</span>
+                    </div>
+
+                    <div class="leader-compact">
+                        <span class="leader-compact__rank">Полковник</span>
+                        <span class="leader-compact__name">Терг Эддард Армэнович</span>
+                        <span class="leader-compact__position">Заместитель Министра Обороны РФ</span>
+                    </div>
+                </div>
+            </section>
+
+         
+            <section class="section">
+                <div class="cta-box">
+                    <h3 class="cta-box__title">❓ Остались вопросы?</h3>
+                    <p class="cta-box__text">
+                        Если ты не нашёл ответ на свой вопрос, ознакомься с FAQ
+                        или задай вопрос нашему помощнику.
+                    </p>
+                    <div class="cta-box__actions">
+                        <a href="faq.html" class="btn btn--primary">❓ Перейти к FAQ</a>
+                        <button class="btn btn--outline" id="openChatbotFromLeadership">🤖 Открыть помощника</button>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+ 
+<footer class="footer">
+    <div class="container footer__inner">
+        <div class="footer__unit">
+            <p class="footer__line">Учебная рота и Военная академия</p>
+            <p class="footer__line">1-я мотострелковая бригада • Войсковая часть №12132</p>
+            <p class="footer__line">RMRP • Кутузовский</p>
+        </div>
+        <div class="footer__developer">
+            <div class="footer__developer-icon">🛠</div>
+            <div class="footer__developer-info">
+                <span class="footer__developer-label">Разработано</span>
+                <span class="footer__developer-name">pyoko</span>
+                <div class="footer__developer-meta">
+                    <span>In-game: <strong>Владислав Боня</strong></span>
+                    <span class="footer__developer-divider">•</span>
+                    <a href="https://discord.com/users/pyokovlad" target="_blank" class="footer__developer-contact">
+                        @pyokovlad
+                    </a>
+                </div>
+            </div>
+        </div>
+        <p class="footer__copy">© 2026 Учебный батальон. Все права защищены.</p>
+    </div>
+</footer>
+
+ 
+    <div class="chatbot">
+        <button class="chatbot__toggle" id="chatbotToggle" aria-label="Открыть помощника">
+            <span class="chatbot__toggle-icon">🤖</span>
+        </button>
+        <div class="chatbot__window" id="chatbotWindow">
+            <div class="chatbot__header">
+                <div class="chatbot__header-info">
+                    <span class="chatbot__header-avatar">🎖</span>
+                    <div>
+                        <div class="chatbot__header-title">Помощник новобранца</div>
+                        <div class="chatbot__header-status">
+                            <span class="chatbot__status-dot"></span>
+                            Онлайн
+                        </div>
+                    </div>
+                </div>
+                <button class="chatbot__close" id="chatbotClose" aria-label="Закрыть">✕</button>
+            </div>
+            <div class="chatbot__messages" id="chatbotMessages">
+                <div class="chatbot__message chatbot__message--bot">
+                    <div class="chatbot__message-bubble">
+                        Привет, боец! 👋 Задай вопрос или выбери из списка ниже.
+                    </div>
+                </div>
+            </div>
+            <div class="chatbot__quick-questions" id="chatbotQuick">
+                <button class="chatbot__quick-btn" data-question="Что такое статик?">📋 Статик</button>
+                <button class="chatbot__quick-btn" data-question="Что такое todo?">📝 todo</button>
+                <button class="chatbot__quick-btn" data-question="Что такое КОД-2?">🚨 КОД-2</button>
+                <button class="chatbot__quick-btn" data-question="Как стать ефрейтором?">📈 Повышение</button>
+            </div>
+            <div class="chatbot__input-area">
+                <input type="text" class="chatbot__input" id="chatbotInput" placeholder="Напиши свой вопрос..." autocomplete="off">
+                <button class="chatbot__send" id="chatbotSend" aria-label="Отправить">➤</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

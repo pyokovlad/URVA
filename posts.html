@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <title>Посты | Учебная рота и Военная академия</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+
+ 
+    <header class="header">
+        <div class="container header__inner">
+            <a href="index.html" class="brand">
+                <img src="img/logo.png" alt="Эмблема" class="brand__logo">
+                <div class="brand__text">
+                    <span class="brand__title">Учебная рота и ВА</span>
+                    <span class="brand__subtitle">1-я мотострелковая бригада • RMRP Кутузовский</span>
+                </div>
+            </a>
+            <div class="search">
+                <input type="text" class="search__input" id="searchInput" placeholder="🔍 Поиск..." autocomplete="off">
+                <button class="search__clear" id="searchClear" type="button" aria-label="Очистить">✕</button>
+                <div class="search__results" id="searchResults"></div>
+            </div>
+            <button class="burger" id="burgerBtn" aria-label="Открыть меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+ 
+    <nav class="nav" id="mainNav">
+        <div class="container nav__inner">
+            <div class="nav__group">
+                <span class="nav__group-label">Первые шаги</span>
+                <a href="index.html" class="nav__link">🏠 Главная</a>
+                <a href="briefing.html" class="nav__link">📚 Вводный инструктаж</a>
+                <a href="dictionary.html" class="nav__link">📖 Словарь</a>
+            </div>
+            <div class="nav__group">
+                <span class="nav__group-label">Обучение</span>
+                <a href="ur.html" class="nav__link">🪖 Учебная рота</a>
+                <a href="va.html" class="nav__link">🎓 Военная академия</a>
+                <a href="materials.html" class="nav__link">📚 Материалы</a>
+                <a href="codes.html" class="nav__link">🚨 Коды реагирования</a>
+                <a href="oath.html" class="nav__link">🪖 Присяга</a>
+            </div>
+            <div class="nav__group">
+                <span class="nav__group-label">Служба</span>
+                <a href="posts.html" class="nav__link active">🛡 Посты</a>
+                <a href="supplies.html" class="nav__link">📦 Поставки</a>
+                <a href="promotion.html" class="nav__link">📈 Повышение</a>
+            </div>
+            <div class="nav__group">
+                <span class="nav__group-label">Помощь</span>
+                <a href="leadership.html" class="nav__link">⭐ Командование</a>
+                <a href="faq.html" class="nav__link">❓ FAQ</a>
+            </div>
+        </div>
+    </nav>
+
+ 
+    <main class="main">
+        <div class="container briefing-layout">
+
+         
+            <aside class="briefing-menu">
+                <h3>Посты</h3>
+                <a href="#kpp-pass">🎯 КПП-1 (проходная)</a>
+                <a href="#kpp1">🛡 КПП-1</a>
+                <a href="#kpp2">🛡 КПП-2</a>
+                <a href="#tower">🗼 Вышка</a>
+                <a href="#staff">🏢 Штаб</a>
+                <hr>
+                <a href="#reports">📋 Шаблоны докладов</a>
+                <a href="#table">📊 Сравнение постов</a>
+            </aside>
+
+         
+            <div class="briefing-content">
+
+             
+                <section class="hero small">
+                    <h1 class="hero__title">🛡 Посты</h1>
+                    <p class="hero__text">
+                        Информация по несению службы, обязанностям военнослужащих,
+                        форме одежды и докладам на каждом посту.
+                    </p>
+                </section>
+
+             
+                <section>
+                    <div class="warning-box">
+                        <p>
+                            ⚠ <strong>Важно!</strong> Перед заступлением на пост
+                            обязательно изучи <strong>лекцию по КПС</strong> и получи
+                            объяснение порядка несения службы от инструктора.
+                        </p>
+                        <p>
+                            <a href="materials.html" style="color: var(--accent);">📚 Перейти к учебным материалам →</a>
+                        </p>
+                    </div>
+                </section>
+
+             
+                
+<section class="briefing-section" id="kpp-pass">
+    <div class="post-card post-card--first">
+        <div class="post-card__badge">🎯 Твой первый пост</div>
+        <h2 class="post-card__title">🛡 КПП №1 (проходная)</h2>
+
+        <h4 class="post-card__subtitle">📷 Фотография поста</h4>
+        <div class="post-gallery post-gallery--single">
+            <img src="img/posts/kpp1_pass.png" alt="Пост КПП №1 проходная" class="post-image">
+        </div>
+
+        <h4 class="post-card__subtitle">👕 Форма одежды</h4>
+        <div class="post-gallery post-gallery--single">
+            <img src="img/posts/kpp1_pass_form.jpg" alt="Форма одежды КПП №1 проходная" class="post-image">
+        </div>
+
+        <div class="post-info-grid">
+            <div class="post-info-item">
+                <h4>👕 Форма одежды</h4>
+                <p>Полевая №2 с оружием в руках</p>
+            </div>
+            <div class="post-info-item">
+                <h4>👥 Количество</h4>
+                <p>До 2 человек</p>
+            </div>
+            <div class="post-info-item">
+                <h4>⏱ Длительность</h4>
+                <p>60 минут</p>
+            </div>
+            <div class="post-info-item">
+                <h4>📈 Для повышения</h4>
+                <p>Рядовой → Ефрейтор</p>
+            </div>
+        </div>
+
+        <h4 class="post-card__subtitle">Обязанности:</h4>
+        <ul class="post-card__list">
+            <li>Никого не впускать без служебной цели</li>
+            <li>Пресечение проникновений на территорию В/Ч</li>
+            <li>Помощь постовым на КПП-1 при нападении</li>
+        </ul>
+
+        <h4 class="post-card__subtitle">Форма доклада:</h4>
+        <div class="code-block">
+            <div class="code-block__text" id="kpp-pass-report">Докладывает: Рядовой Иванов | Пост КПП №1 (проходная) заступил | Состав: 1 | Код: 1 | Доклад окончен</div>
+            <button class="code-block__copy" data-copy="kpp-pass-report">📋</button>
+        </div>
+    </div>
+</section>
+
+             
+                
+<section class="briefing-section" id="kpp1">
+    <div class="post-card">
+        <h2 class="post-card__title">🛡 КПП №1</h2>
+
+        <h4 class="post-card__subtitle">📷 Фотографии поста</h4>
+        <div class="post-gallery">
+            <img src="img/posts/kpp1_1.png" alt="КПП №1 вид 1" class="post-image">
+            <img src="img/posts/kpp1_2.png" alt="КПП №1 вид 2" class="post-image">
+        </div>
+
+        <h4 class="post-card__subtitle">👕 Форма одежды</h4>
+        <div class="post-gallery post-gallery--single">
+            <img src="img/posts/kpp1_pass_form.jpg" alt="Форма одежды КПП №1" class="post-image">
+        </div>
+
+        <div class="post-info-grid">
+            <div class="post-info-item">
+                <h4>👕 Форма одежды</h4>
+                <p>Полевая №2 с оружием в руках</p>
+            </div>
+            <div class="post-info-item">
+                <h4>👥 Количество</h4>
+                <p>2-4 человека</p>
+            </div>
+            <div class="post-info-item">
+                <h4>⏱ Длительность</h4>
+                <p>60 минут</p>
+            </div>
+            <div class="post-info-item">
+                <h4>📈 Для повышения</h4>
+                <p>Ефрейтор → Мл. сержант</p>
+            </div>
+        </div>
+
+        <h4 class="post-card__subtitle">Обязанности:</h4>
+        <ul class="post-card__list">
+            <li>Проверка документов у прибывающих и убывающих лиц</li>
+            <li>Проверка наличия одобренного рапорта на отгул/отпуск</li>
+            <li>Контроль и пресечение попыток попасть на территорию без прав</li>
+            <li>Обеспечение безопасности проезда на ВЧ и выезда</li>
+            <li>Сохранение правопорядка на прилегающей территории</li>
+        </ul>
+
+        <h4 class="post-card__subtitle">Форма доклада:</h4>
+        <div class="code-block">
+            <div class="code-block__text" id="kpp1-report">Докладывает: Рядовой Иванов | Пост КПП №1 заступил | Состав: 1 | Код: 1 | Доклад окончен</div>
+            <button class="code-block__copy" data-copy="kpp1-report">📋</button>
+        </div>
+    </div>
+</section>
+
+             
+               
+<section class="briefing-section" id="kpp2">
+    <div class="post-card">
+        <h2 class="post-card__title">🛡 КПП №2</h2>
+
+        <h4 class="post-card__subtitle">📷 Фотографии поста</h4>
+        <div class="post-gallery">
+            <img src="img/posts/kpp2_1.png" alt="КПП №2 вид 1" class="post-image">
+            <img src="img/posts/kpp2_2.png" alt="КПП №2 вид 2" class="post-image">
+        </div>
+
+        <h4 class="post-card__subtitle">👕 Форма одежды</h4>
+        <div class="post-gallery post-gallery--single">
+            <img src="img/posts/kpp1_pass_form.jpg" alt="Форма одежды КПП №2" class="post-image">
+        </div>
+
+        <div class="post-info-grid">
+            <div class="post-info-item">
+                <h4>👕 Форма одежды</h4>
+                <p>Полевая №2 с оружием в руках</p>
+            </div>
+            <div class="post-info-item">
+                <h4>👥 Количество</h4>
+                <p>2-4 человека</p>
+            </div>
+            <div class="post-info-item">
+                <h4>⏱ Длительность</h4>
+                <p>60 минут</p>
+            </div>
+            <div class="post-info-item">
+                <h4>📈 Для повышения</h4>
+                <p>Ефрейтор → Мл. сержант (ВА)</p>
+            </div>
+        </div>
+
+        <h4 class="post-card__subtitle">Обязанности:</h4>
+        <ul class="post-card__list">
+            <li>Проверка документов у прибывающих и убывающих лиц</li>
+            <li>Проверка наличия одобренного рапорта на отгул/отпуск</li>
+            <li>Контроль и пресечение попыток попасть на территорию без прав</li>
+            <li>Обеспечение безопасности проезда на ВЧ и выезда</li>
+            <li>Сохранение правопорядка на прилегающей территории</li>
+        </ul>
+
+        <h4 class="post-card__subtitle">Форма доклада:</h4>
+        <div class="code-block">
+            <div class="code-block__text" id="kpp2-report">Докладывает: Рядовой Иванов | Пост КПП №2 заступил | Состав: 1 | Код: 1 | Доклад окончен</div>
+            <button class="code-block__copy" data-copy="kpp2-report">📋</button>
+        </div>
+    </div>
+</section>
+
+             
+                
+<section class="briefing-section" id="tower">
+    <div class="post-card">
+        <h2 class="post-card__title">🗼 Вышка</h2>
+
+        <h4 class="post-card__subtitle">📷 Фотографии поста</h4>
+        <div class="post-gallery">
+            <img src="img/posts/tower_1.png" alt="Пост Вышка вид 1" class="post-image">
+            <img src="img/posts/tower_2.png" alt="Пост Вышка вид 2" class="post-image">
+        </div>
+
+        <h4 class="post-card__subtitle">👕 Форма одежды</h4>
+        <div class="post-gallery post-gallery--single">
+            <img src="img/posts/kpp1_pass_form.jpg" alt="Форма одежды Вышка" class="post-image">
+        </div>
+
+        <div class="post-info-grid">
+            <div class="post-info-item">
+                <h4>👕 Форма одежды</h4>
+                <p>Полевая №2 с оружием в руках</p>
+            </div>
+            <div class="post-info-item">
+                <h4>👥 Количество</h4>
+                <p>1 человек</p>
+            </div>
+            <div class="post-info-item">
+                <h4>⏱ Длительность</h4>
+                <p>60 минут</p>
+            </div>
+            <div class="post-info-item">
+                <h4>📈 Для повышения</h4>
+                <p>ВА: Ефрейтор, Мл. сержант → Сержант</p>
+            </div>
+        </div>
+
+        <h4 class="post-card__subtitle">Обязанности:</h4>
+        <ul class="post-card__list">
+            <li>Пресечение попыток нападения на воинскую часть</li>
+            <li>Помощь постовым КПП при необходимости</li>
+            <li>Наблюдение за прилегающей территорией</li>
+        </ul>
+
+        <h4 class="post-card__subtitle">Форма доклада:</h4>
+        <div class="code-block">
+            <div class="code-block__text" id="tower-report">Докладывает: Рядовой Иванов | Пост Вышка заступил | Состав: 1 | Код: 1 | Доклад окончен</div>
+            <button class="code-block__copy" data-copy="tower-report">📋</button>
+        </div>
+    </div>
+</section>
+
+             
+                
+<section class="briefing-section" id="staff">
+    <div class="post-card">
+        <h2 class="post-card__title">🏢 Штаб</h2>
+
+        <h4 class="post-card__subtitle">📷 Фотография поста</h4>
+        <div class="post-gallery post-gallery--single">
+            <img src="img/posts/staff.png" alt="Пост Штаб" class="post-image">
+        </div>
+
+        <h4 class="post-card__subtitle">👕 Форма одежды</h4>
+        <div class="post-gallery post-gallery--single">
+            <img src="img/posts/staff_form.jpg" alt="Форма одежды Штаб" class="post-image">
+        </div>
+
+        <div class="post-info-grid">
+            <div class="post-info-item">
+                <h4>👕 Форма одежды</h4>
+                <p>Костюм повседневный №2 без оружия</p>
+            </div>
+            <div class="post-info-item">
+                <h4>👥 Количество</h4>
+                <p>2 человека</p>
+            </div>
+            <div class="post-info-item">
+                <h4>⏱ Длительность</h4>
+                <p>60 минут</p>
+            </div>
+            <div class="post-info-item">
+                <h4>📈 Для повышения</h4>
+                <p>УР: Рядовой → Ефрейтор</p>
+            </div>
+        </div>
+
+        <h4 class="post-card__subtitle">Обязанности:</h4>
+        <ul class="post-card__list">
+            <li>Охрана служебных помещений штаба</li>
+            <li>Поддержание чистоты и порядка в помещениях</li>
+            <li>Выполнение воинского приветствия каждому входящему</li>
+            <li>Подача команды «СМИРНО!» при прибытии командования</li>
+        </ul>
+
+        <h4 class="post-card__subtitle">Форма доклада:</h4>
+        <div class="code-block">
+            <div class="code-block__text" id="staff-report">Докладывает: Рядовой Иванов | Пост Штаб заступил | Состав: 1 | Код: 1 | Доклад окончен</div>
+            <button class="code-block__copy" data-copy="staff-report">📋</button>
+        </div>
+    </div>
+</section>
+
+             
+                <section class="briefing-section" id="reports">
+                    <h2 class="briefing-section__title">📋 Шаблоны докладов</h2>
+
+                    <div class="card">
+                        <p class="card__text">
+                            На каждом посту доклады подаются <strong>каждые 20 минут</strong>.
+                            Всего за смену (60 минут) нужно сделать <strong>5 докладов</strong>:
+                        </p>
+
+                        <div class="report-steps">
+                            <div class="report-step">
+                                <span class="report-step__number">1</span>
+                                <div class="code-block">
+                                    <div class="code-block__text" id="report-1">Докладывает: Рядовой Иванов | Пост КПП №1 заступил | Состав: 1 | Код: 1 | Доклад окончен</div>
+                                    <button class="code-block__copy" data-copy="report-1">📋</button>
+                                </div>
+                            </div>
+
+                            <div class="report-step">
+                                <span class="report-step__number">2</span>
+                                <div class="code-block">
+                                    <div class="code-block__text" id="report-2">Докладывает: Рядовой Иванов | Пост КПП №1 | Минуты: 20 | Состав: 1 | Код: 1 | Доклад окончен</div>
+                                    <button class="code-block__copy" data-copy="report-2">📋</button>
+                                </div>
+                            </div>
+
+                            <div class="report-step">
+                                <span class="report-step__number">3</span>
+                                <div class="code-block">
+                                    <div class="code-block__text" id="report-3">Докладывает: Рядовой Иванов | Пост КПП №1 | Минуты: 40 | Состав: 1 | Код: 1 | Доклад окончен</div>
+                                    <button class="code-block__copy" data-copy="report-3">📋</button>
+                                </div>
+                            </div>
+
+                            <div class="report-step">
+                                <span class="report-step__number">4</span>
+                                <div class="code-block">
+                                    <div class="code-block__text" id="report-4">Докладывает: Рядовой Иванов | Пост КПП №1 | Минуты: 60 | Состав: 1 | Код: 1 | Доклад окончен</div>
+                                    <button class="code-block__copy" data-copy="report-4">📋</button>
+                                </div>
+                            </div>
+
+                            <div class="report-step">
+                                <span class="report-step__number">5</span>
+                                <div class="code-block">
+                                    <div class="code-block__text" id="report-5">Докладывает: Рядовой Иванов | Пост КПП №1 сдал | Состав: 1 | Код: 1 | Доклад окончен</div>
+                                    <button class="code-block__copy" data-copy="report-5">📋</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="warning-box" style="margin-top: 20px;">
+                        <p>
+                            ⚠ <strong>Важно!</strong> При несении поста необходимо иметь
+                            <strong>5 подтверждающих скриншотов</strong>:
+                        </p>
+                        <p>
+                            1. Заступил на пост<br>
+                            2. Доклад через 20 минут<br>
+                            3. Доклад через 40 минут<br>
+                            4. Доклад через 60 минут<br>
+                            5. Сдал пост
+                        </p>
+                    </div>
+                </section>
+
+             
+                <section class="briefing-section" id="table">
+                    <h2 class="briefing-section__title">📊 Сравнение постов</h2>
+
+                    <div class="comparison-table-wrapper">
+                        <table class="comparison-table">
+                            <thead>
+                                <tr>
+                                    <th>Пост</th>
+                                    <th>Форма</th>
+                                    <th>Кол-во</th>
+                                    <th>Для повышения</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>КПП-1 (проходная)</strong></td>
+                                    <td>Полевая №2 + оружие</td>
+                                    <td>До 2</td>
+                                    <td>УР: Рядовой → Ефрейтор</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>КПП-1</strong></td>
+                                    <td>Полевая №2 + оружие</td>
+                                    <td>2-4</td>
+                                    <td>УР/ВА: Ефрейтор → Мл. сержант</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>КПП-2</strong></td>
+                                    <td>Полевая №2 + оружие</td>
+                                    <td>2-4</td>
+                                    <td>ВА: Ефрейтор → Мл. сержант</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Вышка</strong></td>
+                                    <td>Полевая №2 + оружие</td>
+                                    <td>1</td>
+                                    <td>ВА: Ефрейтор, Мл. сержант → Сержант</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Штаб</strong></td>
+                                    <td>Повседневная №2 (без оружия)</td>
+                                    <td>2</td>
+                                    <td>УР: Рядовой → Ефрейтор</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+             
+                <section class="briefing-section">
+                    <div class="cta-box">
+                        <h3 class="cta-box__title">📦 Что дальше?</h3>
+                        <p class="cta-box__text">
+                            Помимо постов, для повышения нужны поставки.
+                            Изучи, как правильно участвовать в поставках.
+                        </p>
+                        <a href="supplies.html" class="btn btn--primary">📦 Перейти к поставкам</a>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </main>
+
+ 
+<footer class="footer">
+    <div class="container footer__inner">
+        <div class="footer__unit">
+            <p class="footer__line">Учебная рота и Военная академия</p>
+            <p class="footer__line">1-я мотострелковая бригада • Войсковая часть №12132</p>
+            <p class="footer__line">RMRP • Кутузовский</p>
+        </div>
+        <div class="footer__developer">
+            <div class="footer__developer-icon">🛠</div>
+            <div class="footer__developer-info">
+                <span class="footer__developer-label">Разработано</span>
+                <span class="footer__developer-name">pyoko</span>
+                <div class="footer__developer-meta">
+                    <span>In-game: <strong>Владислав Боня</strong></span>
+                    <span class="footer__developer-divider">•</span>
+                    <a href="https://discord.com/users/pyokovlad" target="_blank" class="footer__developer-contact">
+                        @pyokovlad
+                    </a>
+                </div>
+            </div>
+        </div>
+        <p class="footer__copy">© 2026 Учебный батальон. Все права защищены.</p>
+    </div>
+</footer>
+
+ 
+    <div class="chatbot">
+        <button class="chatbot__toggle" id="chatbotToggle" aria-label="Открыть помощника">
+            <span class="chatbot__toggle-icon">🤖</span>
+        </button>
+        <div class="chatbot__window" id="chatbotWindow">
+            <div class="chatbot__header">
+                <div class="chatbot__header-info">
+                    <span class="chatbot__header-avatar">🎖</span>
+                    <div>
+                        <div class="chatbot__header-title">Помощник новобранца</div>
+                        <div class="chatbot__header-status">
+                            <span class="chatbot__status-dot"></span>
+                            Онлайн
+                        </div>
+                    </div>
+                </div>
+                <button class="chatbot__close" id="chatbotClose" aria-label="Закрыть">✕</button>
+            </div>
+            <div class="chatbot__messages" id="chatbotMessages">
+                <div class="chatbot__message chatbot__message--bot">
+                    <div class="chatbot__message-bubble">
+                        Привет, боец! 👋 Задай вопрос или выбери из списка ниже.
+                    </div>
+                </div>
+            </div>
+            <div class="chatbot__quick-questions" id="chatbotQuick">
+                <button class="chatbot__quick-btn" data-question="Что такое статик?">📋 Статик</button>
+                <button class="chatbot__quick-btn" data-question="Что такое todo?">📝 todo</button>
+                <button class="chatbot__quick-btn" data-question="Что такое КОД-2?">🚨 КОД-2</button>
+                <button class="chatbot__quick-btn" data-question="Как стать ефрейтором?">📈 Повышение</button>
+            </div>
+            <div class="chatbot__input-area">
+                <input type="text" class="chatbot__input" id="chatbotInput" placeholder="Напиши свой вопрос..." autocomplete="off">
+                <button class="chatbot__send" id="chatbotSend" aria-label="Отправить">➤</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

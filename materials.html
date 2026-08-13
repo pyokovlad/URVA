@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <title>Учебные материалы | Учебная рота и Военная академия</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+
+ 
+    <header class="header">
+        <div class="container header__inner">
+            <a href="index.html" class="brand">
+                <img src="img/logo.png" alt="Эмблема" class="brand__logo">
+                <div class="brand__text">
+                    <span class="brand__title">Учебная рота и ВА</span>
+                    <span class="brand__subtitle">1-я мотострелковая бригада • RMRP Кутузовский</span>
+                </div>
+            </a>
+            <div class="search">
+                <input type="text" class="search__input" id="searchInput" placeholder="🔍 Поиск..." autocomplete="off">
+                <button class="search__clear" id="searchClear" type="button" aria-label="Очистить">✕</button>
+                <div class="search__results" id="searchResults"></div>
+            </div>
+            <button class="burger" id="burgerBtn" aria-label="Открыть меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+ 
+    <nav class="nav" id="mainNav">
+        <div class="container nav__inner">
+            <div class="nav__group">
+                <span class="nav__group-label">Первые шаги</span>
+                <a href="index.html" class="nav__link">🏠 Главная</a>
+                <a href="briefing.html" class="nav__link">📚 Вводный инструктаж</a>
+                <a href="dictionary.html" class="nav__link">📖 Словарь</a>
+            </div>
+            <div class="nav__group">
+                <span class="nav__group-label">Обучение</span>
+                <a href="ur.html" class="nav__link">🪖 Учебная рота</a>
+                <a href="va.html" class="nav__link">🎓 Военная академия</a>
+                <a href="materials.html" class="nav__link active">📚 Материалы</a>
+                <a href="codes.html" class="nav__link">🚨 Коды реагирования</a>
+                <a href="oath.html" class="nav__link">🪖 Присяга</a>
+            </div>
+            <div class="nav__group">
+                <span class="nav__group-label">Служба</span>
+                <a href="posts.html" class="nav__link">🛡 Посты</a>
+                <a href="supplies.html" class="nav__link">📦 Поставки</a>
+                <a href="promotion.html" class="nav__link">📈 Повышение</a>
+            </div>
+            <div class="nav__group">
+                <span class="nav__group-label">Помощь</span>
+                <a href="leadership.html" class="nav__link">⭐ Командование</a>
+                <a href="faq.html" class="nav__link">❓ FAQ</a>
+            </div>
+        </div>
+    </nav>
+
+ 
+    <main class="main">
+        <div class="container">
+
+         
+            <section class="hero small">
+                <h1 class="hero__title">📚 Учебные материалы</h1>
+                <p class="hero__subtitle">Лекции, курсы и нормативные документы</p>
+                <p class="hero__text">
+                    Здесь собраны все презентации и уставы Учебного батальона.
+                    Изучай материалы заранее, чтобы быть готовым к занятиям с инструктором.
+                </p>
+            </section>
+
+         
+            <section class="section">
+                <div class="warning-box">
+                    <p>
+                        ⚠ <strong>Важно!</strong> Данные материалы предназначены
+                        для <strong>предварительной подготовки</strong> военнослужащих.
+                    </p>
+                    <p>
+                        Самостоятельное изучение презентаций и документов
+                        <strong>не заменяет</strong> проведение занятий.
+                        Материал считается изученным только после проведения лекции
+                        или тренировки инструктором.
+                    </p>
+                </div>
+            </section>
+
+         
+            <section class="dict-controls">
+                <div class="dict-search-wrapper">
+                    <span class="dict-search-icon">🔍</span>
+                    <input 
+                        type="text" 
+                        class="dict-search" 
+                        id="materialsSearch" 
+                        placeholder="Поиск по материалам..."
+                        autocomplete="off"
+                    >
+                </div>
+
+                <div class="dict-filters">
+                    <button class="dict-filter dict-filter--active" data-category="all">
+                        📋 Все
+                    </button>
+                    <button class="dict-filter" data-category="lecture">
+                        📚 Лекции
+                    </button>
+                    <button class="dict-filter" data-category="ustav">
+                        📜 Уставы
+                    </button>
+                    <button class="dict-filter" data-category="required">
+                        ⭐ Обязательные
+                    </button>
+                </div>
+            </section>
+
+         
+            <p class="dict-counter" id="materialsCounter">Найдено: 13</p>
+
+         
+            <div class="materials-grid" id="materialsGrid"></div>
+
+         
+            <div class="dict-empty" id="materialsEmpty" style="display: none;">
+                <span class="dict-empty__icon">🔍</span>
+                <p>Ничего не найдено. Попробуй изменить запрос.</p>
+            </div>
+
+         
+            <section class="section" style="margin-top: 64px;">
+                <h2 class="section__title">⭐ Обязательные материалы для изучения</h2>
+
+                <div class="card">
+                    <p class="card__text">
+                        Ниже размещены материалы, которые каждый военнослужащий
+                        <strong>обязан знать наизусть</strong> независимо от занимаемой должности:
+                    </p>
+
+                    <div class="required-list">
+                        <div class="required-item">
+                            <span class="required-item__icon">🪖</span>
+                            <div>
+                                <h4>Военная присяга</h4>
+                                <p>Текст присяги нужно знать наизусть. <a href="oath.html">Перейти к присяге →</a></p>
+                            </div>
+                        </div>
+
+                        <div class="required-item">
+                            <span class="required-item__icon">🚨</span>
+                            <div>
+                                <h4>Коды реагирования</h4>
+                                <p>Все 4 кода и порядок действий при их объявлении. <a href="codes.html">Перейти к кодам →</a></p>
+                            </div>
+                        </div>
+
+                        <div class="required-item">
+                            <span class="required-item__icon">📜</span>
+                            <div>
+                                <h4>Устав караульно-постовой службы</h4>
+                                <p>Порядок несения службы на постах и доклады.</p>
+                            </div>
+                        </div>
+
+                        <div class="required-item">
+                            <span class="required-item__icon">📖</span>
+                            <div>
+                                <h4>Внутренний устав</h4>
+                                <p>Правила внутреннего порядка и обязанности военнослужащих.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+         
+            <section class="section">
+                <div class="cta-box">
+                    <h3 class="cta-box__title">💬 Нужна помощь?</h3>
+                    <p class="cta-box__text">
+                        Если ты не нашёл необходимый материал, обратись к инструктору
+                        Учебного батальона или задай вопрос нашему помощнику.
+                    </p>
+                    <button class="btn btn--primary" id="openChatbotFromMaterials">🤖 Открыть помощника</button>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+ 
+<footer class="footer">
+    <div class="container footer__inner">
+        <div class="footer__unit">
+            <p class="footer__line">Учебная рота и Военная академия</p>
+            <p class="footer__line">1-я мотострелковая бригада • Войсковая часть №12132</p>
+            <p class="footer__line">RMRP • Кутузовский</p>
+        </div>
+        <div class="footer__developer">
+            <div class="footer__developer-icon">🛠</div>
+            <div class="footer__developer-info">
+                <span class="footer__developer-label">Разработано</span>
+                <span class="footer__developer-name">pyoko</span>
+                <div class="footer__developer-meta">
+                    <span>In-game: <strong>Владислав Боня</strong></span>
+                    <span class="footer__developer-divider">•</span>
+                    <a href="https://discord.com/users/pyokovlad" target="_blank" class="footer__developer-contact">
+                        @pyokovlad
+                    </a>
+                </div>
+            </div>
+        </div>
+        <p class="footer__copy">© 2026 Учебный батальон. Все права защищены.</p>
+    </div>
+</footer>
+
+ 
+    <div class="chatbot">
+        <button class="chatbot__toggle" id="chatbotToggle" aria-label="Открыть помощника">
+            <span class="chatbot__toggle-icon">🤖</span>
+        </button>
+        <div class="chatbot__window" id="chatbotWindow">
+            <div class="chatbot__header">
+                <div class="chatbot__header-info">
+                    <span class="chatbot__header-avatar">🎖</span>
+                    <div>
+                        <div class="chatbot__header-title">Помощник новобранца</div>
+                        <div class="chatbot__header-status">
+                            <span class="chatbot__status-dot"></span>
+                            Онлайн
+                        </div>
+                    </div>
+                </div>
+                <button class="chatbot__close" id="chatbotClose" aria-label="Закрыть">✕</button>
+            </div>
+            <div class="chatbot__messages" id="chatbotMessages">
+                <div class="chatbot__message chatbot__message--bot">
+                    <div class="chatbot__message-bubble">
+                        Привет, боец! 👋 Задай вопрос или выбери из списка ниже.
+                    </div>
+                </div>
+            </div>
+            <div class="chatbot__quick-questions" id="chatbotQuick">
+                <button class="chatbot__quick-btn" data-question="Что такое статик?">📋 Статик</button>
+                <button class="chatbot__quick-btn" data-question="Что такое todo?">📝 todo</button>
+                <button class="chatbot__quick-btn" data-question="Что такое КОД-2?">🚨 КОД-2</button>
+                <button class="chatbot__quick-btn" data-question="Как стать ефрейтором?">📈 Повышение</button>
+            </div>
+            <div class="chatbot__input-area">
+                <input type="text" class="chatbot__input" id="chatbotInput" placeholder="Напиши свой вопрос..." autocomplete="off">
+                <button class="chatbot__send" id="chatbotSend" aria-label="Отправить">➤</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <title>Коды реагирования | Учебная рота и Военная академия</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+
+ 
+    <header class="header">
+        <div class="container header__inner">
+            <a href="index.html" class="brand">
+                <img src="img/logo.png" alt="Эмблема" class="brand__logo">
+                <div class="brand__text">
+                    <span class="brand__title">Учебная рота и ВА</span>
+                    <span class="brand__subtitle">1-я мотострелковая бригада • RMRP Кутузовский</span>
+                </div>
+            </a>
+            <div class="search">
+                <input type="text" class="search__input" id="searchInput" placeholder="🔍 Поиск..." autocomplete="off">
+                <button class="search__clear" id="searchClear" type="button" aria-label="Очистить">✕</button>
+                <div class="search__results" id="searchResults"></div>
+            </div>
+            <button class="burger" id="burgerBtn" aria-label="Открыть меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+ 
+    <nav class="nav" id="mainNav">
+        <div class="container nav__inner">
+            <div class="nav__group">
+                <span class="nav__group-label">Первые шаги</span>
+                <a href="index.html" class="nav__link">🏠 Главная</a>
+                <a href="briefing.html" class="nav__link">📚 Вводный инструктаж</a>
+                <a href="dictionary.html" class="nav__link">📖 Словарь</a>
+            </div>
+            <div class="nav__group">
+                <span class="nav__group-label">Обучение</span>
+                <a href="ur.html" class="nav__link">🪖 Учебная рота</a>
+                <a href="va.html" class="nav__link">🎓 Военная академия</a>
+                <a href="materials.html" class="nav__link">📚 Материалы</a>
+                <a href="codes.html" class="nav__link active">🚨 Коды реагирования</a>
+                <a href="oath.html" class="nav__link">🪖 Присяга</a>
+            </div>
+            <div class="nav__group">
+                <span class="nav__group-label">Служба</span>
+                <a href="posts.html" class="nav__link">🛡 Посты</a>
+                <a href="supplies.html" class="nav__link">📦 Поставки</a>
+                <a href="promotion.html" class="nav__link">📈 Повышение</a>
+            </div>
+            <div class="nav__group">
+                <span class="nav__group-label">Помощь</span>
+                <a href="leadership.html" class="nav__link">⭐ Командование</a>
+                <a href="faq.html" class="nav__link">❓ FAQ</a>
+            </div>
+        </div>
+    </nav>
+
+ 
+    <main class="main">
+        <div class="container">
+
+         
+            <section class="hero small">
+                <h1 class="hero__title">🚨 Коды реагирования</h1>
+                <p class="hero__text">
+                    Система кодов для быстрой оценки ситуации и координации действий личного состава.
+                    Каждый военнослужащий <strong>обязан знать</strong> все коды и порядок действий при их объявлении.
+                </p>
+            </section>
+
+         
+            <section class="section">
+                <div class="warning-box">
+                    <p>
+                        ⚠ <strong>Важно!</strong> Коды реагирования — основа безопасности воинской части.
+                        Незнание кодов может привести к неправильным действиям в критической ситуации.
+                    </p>
+                    <p>
+                        Изучи все 4 кода внимательно. При объявлении кода в рацию действуй
+                        строго по инструкции.
+                    </p>
+                </div>
+            </section>
+
+         
+            <section class="section">
+                <div class="codes-grid">
+
+                 
+                    <div class="code-card code-card--green">
+                        <div class="code-card__header">
+                            <span class="code-card__number">КОД-1</span>
+                            <span class="code-card__dot"></span>
+                        </div>
+                        <h3 class="code-card__title">Штатный режим</h3>
+                        <p class="code-card__desc">
+                            Пост функционирует в обычном режиме.
+                            Военнослужащие осуществляют наблюдение, контроль территории
+                            и регулярно докладывают обстановку в рацию.
+                        </p>
+                        <div class="code-card__actions">
+                            <h4>Действия:</h4>
+                            <ul>
+                                <li>Ведение наблюдения</li>
+                                <li>Доклады каждые 20 минут</li>
+                                <li>Проверка документов</li>
+                                <li>Контроль территории</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                 
+                    <div class="code-card code-card--yellow">
+                        <div class="code-card__header">
+                            <span class="code-card__number">КОД-2</span>
+                            <span class="code-card__dot"></span>
+                        </div>
+                        <h3 class="code-card__title">Нарушение порядка</h3>
+                        <p class="code-card__desc">
+                            Хулиганство, отказ выполнять требования, игнорирование приказов
+                            или попытка несанкционированного проникновения на территорию.
+                        </p>
+                        <div class="code-card__actions">
+                            <h4>Порядок действий:</h4>
+                            <ol>
+                                <li>Предупреждение нарушителя</li>
+                                <li>Применение спецсредств</li>
+                                <li>Задержание</li>
+                                <li>Доклад в рацию и вызов ответственных</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                 
+                    <div class="code-card code-card--red">
+                        <div class="code-card__header">
+                            <span class="code-card__number">КОД-3</span>
+                            <span class="code-card__dot"></span>
+                        </div>
+                        <h3 class="code-card__title">Вооружённое нападение</h3>
+                        <p class="code-card__desc">
+                            Нападение на пост, вооружённая агрессия, таран КПП,
+                            массовый прорыв на территорию воинской части.
+                        </p>
+                        <div class="code-card__actions">
+                            <h4>Порядок действий:</h4>
+                            <ol>
+                                <li>Немедленный доклад в рацию</li>
+                                <li>Применение оружия (разрешено)</li>
+                                <li>Занятие оборонительной позиции</li>
+                                <li>Ожидание подкрепления</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                 
+                    <div class="code-card code-card--black">
+                        <div class="code-card__header">
+                            <span class="code-card__number">КОД-4</span>
+                            <span class="code-card__dot"></span>
+                        </div>
+                        <h3 class="code-card__title">Боевая тревога</h3>
+                        <p class="code-card__desc">
+                            Критическая ситуация. Объявляется только высшим командованием
+                            при непосредственной угрозе воинской части.
+                        </p>
+                        <div class="code-card__actions">
+                            <h4>Порядок действий:</h4>
+                            <ol>
+                                <li>Все свободные военнослужащие прибывают в часть</li>
+                                <li>Получение оружия и экипировки</li>
+                                <li>Построение по приказу командира</li>
+                                <li>Выполнение боевых задач</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+         
+            <section class="section">
+                <h2 class="section__title">📋 Сводная таблица</h2>
+
+                <div class="codes-table-wrapper">
+                    <table class="codes-table">
+                        <thead>
+                            <tr>
+                                <th>Код</th>
+                                <th>Ситуация</th>
+                                <th>Главное действие</th>
+                                <th>Кто объявляет</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="codes-table__badge codes-table__badge--green">🟢 КОД-1</span></td>
+                                <td>Штатный режим</td>
+                                <td>Наблюдение и доклады</td>
+                                <td>Постовой</td>
+                            </tr>
+                            <tr>
+                                <td><span class="codes-table__badge codes-table__badge--yellow">🟡 КОД-2</span></td>
+                                <td>Нарушение порядка</td>
+                                <td>Предупреждение → задержание</td>
+                                <td>Постовой / Командир</td>
+                            </tr>
+                            <tr>
+                                <td><span class="codes-table__badge codes-table__badge--red">🔴 КОД-3</span></td>
+                                <td>Вооружённое нападение</td>
+                                <td>Применение оружия</td>
+                                <td>Постовой / Командир</td>
+                            </tr>
+                            <tr>
+                                <td><span class="codes-table__badge codes-table__badge--black">⚫ КОД-4</span></td>
+                                <td>Боевая тревога</td>
+                                <td>Прибытие всех свободных</td>
+                                <td>Только высшее командование</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+         
+            <section class="section">
+                <h2 class="section__title">⛔ Что запрещено</h2>
+
+                <div class="cards-grid">
+                    <div class="card">
+                        <span class="card__icon">🚫</span>
+                        <h3 class="card__title">Ложные объявления</h3>
+                        <p class="card__text">
+                            Категорически запрещено объявлять коды в шутку или без реальной причины.
+                            Это может привести к панике и отвлечению личного состава.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <span class="card__icon">🚫</span>
+                        <h3 class="card__title">Самовольные действия</h3>
+                        <p class="card__text">
+                            При КОД-3 и КОД-4 нельзя действовать самостоятельно —
+                            только по приказу командира и в соответствии с уставом.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <span class="card__icon">🚫</span>
+                        <h3 class="card__title">Молчание в рации</h3>
+                        <p class="card__text">
+                            При любой нештатной ситуации необходимо немедленно доложить в рацию.
+                            Молчание может стоить жизни товарищам.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+         
+            <section class="section">
+                <div class="cta-box">
+                    <h3 class="cta-box__title">📚 Что дальше?</h3>
+                    <p class="cta-box__text">
+                        После изучения кодов ознакомься с постами, где чаще всего объявляются
+                        коды реагирования.
+                    </p>
+                    <a href="posts.html" class="btn btn--primary">🛡 Перейти к постам</a>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+ 
+<footer class="footer">
+    <div class="container footer__inner">
+        <div class="footer__unit">
+            <p class="footer__line">Учебная рота и Военная академия</p>
+            <p class="footer__line">1-я мотострелковая бригада • Войсковая часть №12132</p>
+            <p class="footer__line">RMRP • Кутузовский</p>
+        </div>
+        <div class="footer__developer">
+            <div class="footer__developer-icon">🛠</div>
+            <div class="footer__developer-info">
+                <span class="footer__developer-label">Разработано</span>
+                <span class="footer__developer-name">pyoko</span>
+                <div class="footer__developer-meta">
+                    <span>In-game: <strong>Владислав Боня</strong></span>
+                    <span class="footer__developer-divider">•</span>
+                    <a href="https://discord.com/users/pyokovlad" target="_blank" class="footer__developer-contact">
+                        @pyokovlad
+                    </a>
+                </div>
+            </div>
+        </div>
+        <p class="footer__copy">© 2026 Учебный батальон. Все права защищены.</p>
+    </div>
+</footer>
+
+ 
+    <div class="chatbot">
+        <button class="chatbot__toggle" id="chatbotToggle" aria-label="Открыть помощника">
+            <span class="chatbot__toggle-icon">🤖</span>
+        </button>
+        <div class="chatbot__window" id="chatbotWindow">
+            <div class="chatbot__header">
+                <div class="chatbot__header-info">
+                    <span class="chatbot__header-avatar">🎖</span>
+                    <div>
+                        <div class="chatbot__header-title">Помощник новобранца</div>
+                        <div class="chatbot__header-status">
+                            <span class="chatbot__status-dot"></span>
+                            Онлайн
+                        </div>
+                    </div>
+                </div>
+                <button class="chatbot__close" id="chatbotClose" aria-label="Закрыть">✕</button>
+            </div>
+            <div class="chatbot__messages" id="chatbotMessages">
+                <div class="chatbot__message chatbot__message--bot">
+                    <div class="chatbot__message-bubble">
+                        Привет, боец! 👋 Задай вопрос или выбери из списка ниже.
+                    </div>
+                </div>
+            </div>
+            <div class="chatbot__quick-questions" id="chatbotQuick">
+                <button class="chatbot__quick-btn" data-question="Что такое статик?">📋 Статик</button>
+                <button class="chatbot__quick-btn" data-question="Что такое todo?">📝 todo</button>
+                <button class="chatbot__quick-btn" data-question="Что такое КОД-2?">🚨 КОД-2</button>
+                <button class="chatbot__quick-btn" data-question="Как стать ефрейтором?">📈 Повышение</button>
+            </div>
+            <div class="chatbot__input-area">
+                <input type="text" class="chatbot__input" id="chatbotInput" placeholder="Напиши свой вопрос..." autocomplete="off">
+                <button class="chatbot__send" id="chatbotSend" aria-label="Отправить">➤</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
