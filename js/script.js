@@ -1,4 +1,3 @@
-
 function escapeHtml(str) {
     const div = document.createElement('div');
     div.textContent = str;
@@ -11,10 +10,6 @@ function escapeRegex(str) {
 
 
 const faqData = [
-
-
-
-
     {
         keywords: ['статик', 'static', 'номер', 'айди', 'id', 'уникальный номер'],
         answer: 'Статик — это твой уникальный номер в системе ВС РФ. Формат: XXX-XXX (например, 583-362). В РП-ситуациях это номер паспорта. Он нужен для всех отчётов и рапортов.',
@@ -125,10 +120,6 @@ const faqData = [
         answer: 'Коды реагирования — система для быстрой оценки ситуации:\n🟢 КОД-1 — штатный режим\n🟡 КОД-2 — нарушение порядка\n🔴 КОД-3 — вооружённое нападение\n⚫ КОД-4 — боевая тревога',
         link: { text: 'Подробнее о кодах', url: 'codes.html' }
     },
-
-
-
-
     {
         keywords: ['код-1', 'код 1', 'штатный режим'],
         answer: 'КОД-1 (🟢) — штатный режим. Пост функционирует в обычном режиме.\nВоеннослужащие наблюдают, контролируют территорию и докладывают обстановку.',
@@ -149,10 +140,6 @@ const faqData = [
         answer: 'КОД-4 (⚫) — боевая тревога. Все свободные военнослужащие прибывают для усиления.\nОбъявляется только высшим командованием.',
         link: null
     },
-
-
-
-
     {
         keywords: ['обращение', 'как обращаться', 'товарищ', 'по званию'],
         answer: 'К военнослужащим обращайся исключительно по воинскому званию:\n«Товарищ сержант»\n«Товарищ капитан»\n«Товарищ полковник»',
@@ -188,10 +175,6 @@ const faqData = [
         answer: 'Спорить с командиром запрещено. Приказ должен быть выполнен незамедлительно.\nЕсли считаешь приказ незаконным, выполни его и затем подай рапорт.',
         link: null
     },
-
-
-
-
     {
         keywords: ['маски', 'маска', 'балаклава', 'можно ли маску'],
         answer: 'Военнослужащим запрещается использовать:\n❌ маски\n❌ балаклавы\n❌ линзы неестественного цвета\n❌ неуставные причёски\n\nИсключения — только для специальных подразделений.',
@@ -222,10 +205,6 @@ const faqData = [
         answer: 'Линзы неестественного цвета запрещены.\nРазрешены только прозрачные или естественных оттенков.',
         link: null
     },
-
-
-
-
     {
         keywords: ['жёлтая зона', 'желтая зона', 'жёлтая', 'перед кпп'],
         answer: '🟡 Жёлтая зона — территория перед КПП.\nВоеннослужащий обязан проверить документы гражданина, уточнить цель визита и потребовать снять маску.',
@@ -276,10 +255,6 @@ const faqData = [
         answer: 'Открытие кейсов допускается только в казарме в свободное от службы время.',
         link: null
     },
-
-
-
-
     {
         keywords: ['как проходят лекции', 'как проходит лекция', 'лекция'],
         answer: 'Лектор оповещает в рацию и Discord, собирает личный состав в лекционной, просит зафиксировать todo, включает демонстрацию экрана и проводит занятие.\nМинимальное время — 10 минут.',
@@ -345,10 +320,6 @@ const faqData = [
         answer: 'Основные уставы:\n• Строевой устав\n• Внутренний устав\n• Устав караульно-постовой службы (КПС)\n\nВсе доступны на странице «Учебные материалы».',
         link: { text: 'Учебные материалы', url: 'materials.html' }
     },
-
-
-
-
     {
         keywords: [
             'рядовой до ефрейтора', 'рядового до ефрейтора',
@@ -382,32 +353,32 @@ const faqData = [
         link: { text: 'Подробнее о повышении', url: 'promotion.html' }
     },
     {
-    keywords: [
-        'как прослушать лекцию',
-        'прослушать лекцию',
-        'лекция по уставу',
-        'лекция устава',
-        'устав вс рф лекция',
-        'устав всрф лекция',
-        'лекция по уставу вс рф',
-        'лекция по уставу всрф',
-        'что делать для лекции',
-        'как записаться на лекцию',
-        'записаться на лекцию',
-        'где проходит лекция',
-        'когда лекция',
-        'нужна лекция',
-        'хочу на лекцию',
-        'как попасть на лекцию',
-        'попасть на лекцию',
-        'подать заявку на лекцию',
-        'заявка на лекцию',
-        'обучение уставу',
-        'обучение по уставу'
-    ],
-    answer: 'Чтобы прослушать лекцию, курс или тренировку:\n\n' +
+        keywords: [
+            'как прослушать лекцию',
+            'прослушать лекцию',
+            'лекция по уставу',
+            'лекция устава',
+            'устав вс рф лекция',
+            'устав всрф лекция',
+            'лекция по уставу вс рф',
+            'лекция по уставу всрф',
+            'что делать для лекции',
+            'как записаться на лекцию',
+            'записаться на лекцию',
+            'где проходит лекция',
+            'когда лекция',
+            'нужна лекция',
+            'хочу на лекцию',
+            'как попасть на лекцию',
+            'попасть на лекцию',
+            'подать заявку на лекцию',
+            'заявка на лекцию',
+            'обучение уставу',
+            'обучение по уставу'
+        ],
+        answer: 'Чтобы прослушать лекцию, курс или тренировку:\n\n' +
             '1️⃣ Подготовься — ознакомься с презентацией на странице «Учебные материалы»\n\n' +
-            '2️⃣ Подай заявку в 🔗 <a href="discord.com/channels/1465391913229222103/1505201898272325873" target="_blank">Discord-канал заявок</a>\n\n' +
+            '2️⃣ Подай заявку в 🔗 <a href="https://discord.com/channels/1465391913229222103/1505201898272325873" target="_blank">Discord-канал заявок</a>\n\n' +
             '3️⃣ Дождись объявления о лекции в рации или Discord (расписания нет, лекции проводятся по запросу)\n\n' +
             '4️⃣ Прибудь на лекцию в назначенное время в лекционную\n\n' +
             '5️⃣ Зафиксируй todo в начале лекции (откинь в чат «Рядом»)\n\n' +
@@ -415,8 +386,8 @@ const faqData = [
             '7️⃣ Зафиксируй todo в конце лекции\n\n' +
             '✅ Лекция засчитана!\n\n' +
             '💡 Можно также просто прийти на лекцию без заявки, если она уже объявлена.',
-    link: { text: 'Учебные материалы', url: 'materials.html' }
-},
+        link: { text: 'Учебные материалы', url: 'materials.html' }
+    },
     {
         keywords: ['сколько поставок', 'количество поставок', 'поставок нужно'],
         answer: 'Количество поставок зависит от повышения:\n• Рядовой → Ефрейтор: 2 (УР) или 3 (ВА)\n• Ефрейтор → Мл.сержант: 4 (УР) или 6 (ВА)\n• Мл.сержант → Сержант: 6 (ВА)\n\nТребования: скриншот + бодикамера.',
@@ -452,10 +423,6 @@ const faqData = [
         answer: 'Нет, без успешной сдачи экзамена заступать на пост запрещено.\nЭто правило действует и в УР, и в ВА.',
         link: null
     },
-
-
-
-
     {
         keywords: ['какие есть посты', 'список постов', 'все посты'],
         answer: 'Основные посты:\n🛡 КПП-1 (проходная)\n🛡 КПП-1\n🛡 КПП-2\n🗼 Вышка\n🏢 Штаб\n\nДля первого повышения нужен пост КПП-1 проходная или Штаб.',
@@ -506,10 +473,6 @@ const faqData = [
         answer: 'КПП-2 — контрольно-пропускной пункт №2.\n• Форма: полевая №2 с оружием\n• Количество: 2-4 человека\n• Для повышения: ВА (Ефрейтор → Мл.сержант)',
         link: { text: 'Подробнее о посте', url: 'posts.html' }
     },
-
-
-
-
     {
         keywords: ['что такое поставки', 'поставки', 'как участвовать в поставке'],
         answer: 'Поставки — доставка грузов на объекты.\nПошаговая инструкция:\n1. Сбор на поставку\n2. Включи бодикамеру\n3. Получи ящик\n4. Доставь груз на объект\n5. Сделай скриншот\n6. Сохрани скриншот\n\n1 скриншот = 1 поставка.',
@@ -560,10 +523,6 @@ const faqData = [
         answer: 'Да, бодикамера обязательно должна быть включена при выполнении поставок.\nБез записи бодикамеры скриншоты не засчитываются.',
         link: null
     },
-
-
-
-
     {
         keywords: ['discord', 'дискорд', 'спецсвязь', 'вступить', 'войти'],
         answer: 'Перейди по ссылке discord.gg/R8gZc3x7ut.\nВ канале «Получение роли» нажми кнопку «ВС РФ», заполни Фамилию, Имя и статик, затем нажми «Отправить».',
@@ -589,10 +548,6 @@ const faqData = [
         answer: 'Заявки на лекции подаются исключительно через специальный канал связи в Discord.\nНе следует требовать проведения занятий напрямую.',
         link: null
     },
-
-
-
-
     {
         keywords: ['кто командир уб', 'командир учебного батальона'],
         answer: 'Командир Учебного батальона — Подполковник Левицкий Алексей Михайлович.',
@@ -618,10 +573,6 @@ const faqData = [
         answer: 'Если проблема не решается на уровне роты, обращайся к заместителю командира Учебного батальона — Майору Третьякову Денису Алексеевичу.',
         link: { text: 'Командование', url: 'leadership.html' }
     },
-
-
-
-
     {
         keywords: ['помощь', 'помогите', 'не знаю', 'куда обратиться'],
         answer: 'За помощью обращайся к своему сержанту, командиру отделения или в Discord-канал помощи.\nТакже можешь задать вопрос мне — я постараюсь подсказать!',
@@ -634,7 +585,7 @@ const faqData = [
     },
     {
         keywords: ['разработчик', 'кто сделал сайт', 'связаться с разработчиком'],
-        answer: 'Сайт разработан Владиславом Боней (in-game: pyoko).\nTelegram: @pyokovlad\nПо всем вопросам обращайся в Telegram.',
+        answer: 'Сайт разработан Владиславом Боней (in-game: pyoko).\nDiscord: @pyokovlad\nПо всем вопросам обращайся в Discord.',
         link: null
     }
 ];
@@ -642,7 +593,6 @@ const faqData = [
 const fallbackAnswer = 'Хм, я не совсем понял вопрос 🤔 Попробуй переформулировать или выбери из списка ниже. Если не найдёшь ответа — обратись к командиру роты или в Discord.';
 
 function findAnswer(userText) {
-
     const text = userText.toLowerCase()
         .replace(/[.,!?;:()«»"'-]/g, ' ')
         .replace(/\s+/g, ' ')
@@ -655,11 +605,9 @@ function findAnswer(userText) {
         let score = 0;
         for (const keyword of item.keywords) {
             if (text.includes(keyword)) {
-
                 score += keyword.length;
-
                 if (keyword.includes(' ')) {
-                    score += keyword.length; // удваиваем вес фраз
+                    score += keyword.length;
                 }
             }
         }
@@ -672,11 +620,7 @@ function findAnswer(userText) {
     return bestScore > 0 ? bestMatch : { answer: fallbackAnswer, link: null };
 }
 
-/* ============================================
-   СЛОВАРЬ: БАЗА ДАННЫХ
-   ============================================ */
 const dictionaryData = [
-
     { term: 'УБ', full: 'Учебный батальон', category: 'units', description: 'Подразделение Министерства обороны, осуществляющее подготовку военнослужащих к дальнейшему прохождению службы.' },
     { term: 'УР', full: 'Учебная рота', category: 'units', description: 'Подразделение для подготовки военнослужащих, впервые поступивших на срочную службу. Максимальное звание — Мл. сержант.' },
     { term: 'ВА', full: 'Военная академия', category: 'units', description: 'Подразделение для ускоренной подготовки сотрудников из других госструктур. Максимальное звание — Сержант.' },
@@ -691,8 +635,6 @@ const dictionaryData = [
     { term: 'ВС РФ', full: 'Вооружённые Силы Российской Федерации', category: 'units', description: 'Военная организация государства, предназначенная для отражения агрессии и защиты территории.' },
     { term: 'ЦГБ', full: 'Центральная городская больница', category: 'units', description: 'Гражданское медицинское учреждение. Может вызываться на территорию ВЧ при необходимости.' },
     { term: 'ВП', full: 'Военная полиция', category: 'units', description: 'Подразделение, обеспечивающее правопорядок в Вооружённых Силах. Проводит патрули и задержания.' },
-
-
     { term: 'Статик', full: 'Внутриигровой ID', category: 'terms', description: 'Твой уникальный номер в системе. В РП-ситуациях является номером паспорта. Формат: XXX-XXX (например, 583-362).' },
     { term: 'Бодикамера', full: 'Камера для записи', category: 'terms', description: 'Используется для фиксации служебной деятельности: поставок, лекций, тренировок, МП/ГМП. Должна быть включена при входе в игру.' },
     { term: 'Рация', full: 'Канал голосовой связи', category: 'terms', description: 'Основной способ связи в игре. Формат вызова: «УБ | [текст сообщения]». Текст пишется в верхнем регистре.' },
@@ -712,16 +654,12 @@ const dictionaryData = [
     { term: 'Сейф-документов', full: 'Канал для подачи документов', category: 'terms', description: 'Discord-канал, куда подаются документы после выполнения критериев повышения.' },
     { term: 'Срочная служба', full: 'Обязательная военная служба', category: 'terms', description: 'Период обязательной службы в Вооружённых Силах. До получения военного билета действуют ограничения.' },
     { term: 'Военный билет', full: 'Документ военнослужащего', category: 'terms', description: 'Документ, выдаваемый после завершения срочной службы. Снимает ряд ограничений.' },
-
-
     { term: 'Рядовой', full: 'Начальное звание', category: 'ranks', description: 'Первое звание, присваиваемое при поступлении на службу. Все новобранцы начинают с него.' },
     { term: 'Ефрейтор', full: 'Второе звание', category: 'ranks', description: 'Присваивается после выполнения критериев: лекции, присяга, пост, поставки.' },
     { term: 'Мл. сержант', full: 'Младший сержант', category: 'ranks', description: 'Максимальное звание в Учебной роте. Для его получения нужно сдать экзамен.' },
     { term: 'Сержант', full: 'Третье звание', category: 'ranks', description: 'Максимальное звание в Военной академии. Для его получения нужны посты и поставки.' },
     { term: 'Ст. сержант', full: 'Старший сержант', category: 'ranks', description: 'Звание, доступное после перевода в Учебный батальон.' },
     { term: 'Старшина', full: 'Высшее звание срочной службы', category: 'ranks', description: 'Максимальное звание в Учебном батальоне. Далее — перевод в Отдел кадров.' },
-
-
     { term: 'КОД-1', full: 'Штатный режим', category: 'commands', description: '🟢 Пост функционирует в обычном режиме. Военнослужащие наблюдают и докладывают обстановку.' },
     { term: 'КОД-2', full: 'Нарушение порядка', category: 'commands', description: '🟡 Хулиганство, отказ выполнять требования. Порядок: предупреждение → спецсредства → задержание → доклад.' },
     { term: 'КОД-3', full: 'Вооружённое нападение', category: 'commands', description: '🔴 Таран КПП, массовый прорыв. Разрешено применение оружия в соответствии с уставом.' },
@@ -740,69 +678,58 @@ function getCategoryLabel(category) {
     return labels[category] || category;
 }
 
-/* ============================================
-   DOM LOADED
-   ============================================ */
 document.addEventListener('DOMContentLoaded', () => {
 
-/* ---------- БУРГЕР-МЕНЮ ---------- */
-const burgerBtn = document.getElementById('burgerBtn');
-const mainNav = document.getElementById('mainNav');
-const header = document.querySelector('.header');
+    const burgerBtn = document.getElementById('burgerBtn');
+    const mainNav = document.getElementById('mainNav');
+    const header = document.querySelector('.header');
 
-
-function updateNavPosition() {
-    if (!mainNav) return;
-    
-    if (window.innerWidth <= 900 && header) {
-
-        const headerHeight = header.offsetHeight;
-        mainNav.style.top = headerHeight + 'px';
-        mainNav.style.height = `calc(100vh - ${headerHeight}px)`;
-    } else {
-
-        mainNav.style.top = '';
-        mainNav.style.height = '';
-    }
-}
-
-function openNav() {
-    updateNavPosition();
-    mainNav.classList.add('is-open');
-    burgerBtn.classList.add('is-open');
-    document.body.classList.add('nav-open');
-}
-
-function closeNav() {
-    mainNav.classList.remove('is-open');
-    burgerBtn.classList.remove('is-open');
-    document.body.classList.remove('nav-open');
-}
-
-if (burgerBtn && mainNav) {
-    burgerBtn.addEventListener('click', () => {
-        mainNav.classList.contains('is-open') ? closeNav() : openNav();
-    });
-
-    mainNav.querySelectorAll('.nav__link').forEach(link => {
-        link.addEventListener('click', closeNav);
-    });
-
-    document.addEventListener('click', (e) => {
-        const isInsideNav = mainNav.contains(e.target);
-        const isBurger = burgerBtn.contains(e.target);
-        if (!isInsideNav && !isBurger && mainNav.classList.contains('is-open')) {
-            closeNav();
+    function updateNavPosition() {
+        if (!mainNav) return;
+        if (window.innerWidth <= 900 && header) {
+            const headerHeight = header.offsetHeight;
+            mainNav.style.top = headerHeight + 'px';
+            mainNav.style.height = `calc(100vh - ${headerHeight}px)`;
+        } else {
+            mainNav.style.top = '';
+            mainNav.style.height = '';
         }
-    });
+    }
 
+    function openNav() {
+        updateNavPosition();
+        mainNav.classList.add('is-open');
+        burgerBtn.classList.add('is-open');
+        document.body.classList.add('nav-open');
+    }
 
-    window.addEventListener('resize', updateNavPosition);
+    function closeNav() {
+        mainNav.classList.remove('is-open');
+        burgerBtn.classList.remove('is-open');
+        document.body.classList.remove('nav-open');
+    }
 
-    updateNavPosition();
-}
+    if (burgerBtn && mainNav) {
+        burgerBtn.addEventListener('click', () => {
+            mainNav.classList.contains('is-open') ? closeNav() : openNav();
+        });
 
-    /* ---------- ПОДСВЕТКА АКТИВНОЙ СТРАНИЦЫ ---------- */
+        mainNav.querySelectorAll('.nav__link').forEach(link => {
+            link.addEventListener('click', closeNav);
+        });
+
+        document.addEventListener('click', (e) => {
+            const isInsideNav = mainNav.contains(e.target);
+            const isBurger = burgerBtn.contains(e.target);
+            if (!isInsideNav && !isBurger && mainNav.classList.contains('is-open')) {
+                closeNav();
+            }
+        });
+
+        window.addEventListener('resize', updateNavPosition);
+        updateNavPosition();
+    }
+
     const currentPage = window.location.pathname.split('/').pop() || 'index.html';
     document.querySelectorAll('.nav__link').forEach(link => {
         link.classList.remove('active');
@@ -811,273 +738,162 @@ if (burgerBtn && mainNav) {
         }
     });
 
-   /* ---------- ГЛОБАЛЬНЫЙ ПОИСК ПО САЙТУ ---------- */
-const searchInput = document.getElementById('searchInput');
-const searchClear = document.getElementById('searchClear');
-const searchResults = document.getElementById('searchResults');
+    const searchInput = document.getElementById('searchInput');
+    const searchClear = document.getElementById('searchClear');
+    const searchResults = document.getElementById('searchResults');
 
-if (searchInput) {
+    if (searchInput) {
+        const searchIndex = [
+            { title: 'Главная', url: 'index.html', icon: '🏠', description: 'Чек-лист первого повышения, быстрые ссылки, важная информация', keywords: ['главная', 'чек-лист', 'первые шаги', 'повышение', 'ефрейтор'] },
+            { title: 'Вводный инструктаж', url: 'briefing.html', icon: '📚', description: 'Дисциплина, субординация, дресс-код, зоны контроля, ограничения срочников, внутренний порядок', keywords: ['инструктаж', 'дисциплина', 'субординация', 'дресс-код', 'зоны', 'ограничения', 'обращения', 'уставные ответы', 'маски', 'форма', 'красная зона', 'жёлтая зона'] },
+            { title: 'Словарь новобранца', url: 'dictionary.html', icon: '📖', description: 'Сокращения и термины: УБ, УР, ВА, статик, todo, бодикамера, коды реагирования', keywords: ['словарь', 'сокращения', 'термины', 'уб', 'ур', 'ва', 'статик', 'todo', 'бодикамера', 'рация', 'кпп', 'пост', 'поставка', 'устав', 'присяга'] },
+            { title: 'Учебная рота', url: 'ur.html', icon: '🪖', description: 'Описание Учебной роты, программа обучения, путь повышения до Мл. сержанта', keywords: ['учебная рота', 'ур', 'новобранцы', 'программа обучения', 'строевая', 'огневая', 'физподготовка', 'вождение', 'мл. сержант'] },
+            { title: 'Военная академия', url: 'va.html', icon: '🎓', description: 'Описание Военной академии, ускоренная программа, путь повышения до Сержанта', keywords: ['военная академия', 'ва', 'укмб', 'ускоренная программа', 'сержант', 'переведённые', 'госструктуры'] },
+            { title: 'Учебные материалы', url: 'materials.html', icon: '📚', description: 'Лекции и уставы: вводный инструктаж, основы службы, КПС, профориентация, медподготовка, строевая, огневая, физподготовка', keywords: ['материалы', 'лекции', 'уставы', 'презентации', 'строевой устав', 'внутренний устав', 'кпс', 'медподготовка', 'огневая', 'строевая'] },
+            { title: 'Коды реагирования', url: 'codes.html', icon: '🚨', description: 'КОД-1 (штатный), КОД-2 (нарушение), КОД-3 (нападение), КОД-4 (тревога). Порядок действий', keywords: ['коды', 'код-1', 'код-2', 'код-3', 'код-4', 'тревога', 'нападение', 'нарушение', 'штатный режим'] },
+            { title: 'Военная присяга', url: 'oath.html', icon: '🪖', description: 'Текст военной присяги, церемония принятия, обязательность для повышения', keywords: ['присяга', 'клятва', 'текст присяги', 'церемония', 'торжественная'] },
+            { title: 'Посты', url: 'posts.html', icon: '🛡', description: 'КПП-1 проходная, КПП-1, КПП-2, Вышка, Штаб. Форма одежды, обязанности, доклады', keywords: ['посты', 'кпп', 'кпп-1', 'кпп-2', 'вышка', 'штаб', 'проходная', 'доклады', 'форма одежды', 'обязанности'] },
+            { title: 'Поставки', url: 'supplies.html', icon: '📦', description: 'Поставочные объекты: МС, РЛС, Об7, ВС/ГСМО, Фин, ЗМХ, ЦМС. Требования к скриншотам', keywords: ['поставки', 'мс', 'рлс', 'об7', 'гсмо', 'змх', 'цмс', 'скриншоты', 'бодикамера', 'ящик', 'жёлтая линия'] },
+            { title: 'Повышение', url: 'promotion.html', icon: '📈', description: 'Критерии повышения для УР и ВА: Рядовой → Ефрейтор → Мл. сержант → Сержант', keywords: ['повышение', 'критерии', 'ефрейтор', 'мл. сержант', 'сержант', 'рапорт', 'отчёты', 'сейф-документов', 'экзамен'] },
+            { title: 'Командование', url: 'leadership.html', icon: '⭐', description: 'Руководящий состав: Командир УБ, Командир УР, Начальник ВА, Отдел кадров', keywords: ['командование', 'командир', 'начальник', 'руководство', 'левицкий', 'андерсон', 'третьяков', 'волнов'] },
+            { title: 'FAQ', url: 'faq.html', icon: '❓', description: 'Ответы на частые вопросы: обучение, повышение, посты, поставки, Discord', keywords: ['faq', 'вопросы', 'ответы', 'частые вопросы', 'помощь'] }
+        ];
 
-
-    const searchIndex = [
-        {
-            title: 'Главная',
-            url: 'index.html',
-            icon: '🏠',
-            description: 'Чек-лист первого повышения, быстрые ссылки, важная информация',
-            keywords: ['главная', 'чек-лист', 'первые шаги', 'повышение', 'ефрейтор']
-        },
-        {
-            title: 'Вводный инструктаж',
-            url: 'briefing.html',
-            icon: '📚',
-            description: 'Дисциплина, субординация, дресс-код, зоны контроля, ограничения срочников, внутренний порядок',
-            keywords: ['инструктаж', 'дисциплина', 'субординация', 'дресс-код', 'зоны', 'ограничения', 'обращения', 'уставные ответы', 'маски', 'форма', 'красная зона', 'жёлтая зона']
-        },
-        {
-            title: 'Словарь новобранца',
-            url: 'dictionary.html',
-            icon: '📖',
-            description: 'Сокращения и термины: УБ, УР, ВА, статик, todo, бодикамера, коды реагирования',
-            keywords: ['словарь', 'сокращения', 'термины', 'уб', 'ур', 'ва', 'статик', 'todo', 'бодикамера', 'рация', 'кпп', 'пост', 'поставка', 'устав', 'присяга']
-        },
-        {
-            title: 'Учебная рота',
-            url: 'ur.html',
-            icon: '🪖',
-            description: 'Описание Учебной роты, программа обучения, путь повышения до Мл. сержанта',
-            keywords: ['учебная рота', 'ур', 'новобранцы', 'программа обучения', 'строевая', 'огневая', 'физподготовка', 'вождение', 'мл. сержант']
-        },
-        {
-            title: 'Военная академия',
-            url: 'va.html',
-            icon: '🎓',
-            description: 'Описание Военной академии, ускоренная программа, путь повышения до Сержанта',
-            keywords: ['военная академия', 'ва', 'укмб', 'ускоренная программа', 'сержант', 'переведённые', 'госструктуры']
-        },
-        {
-            title: 'Учебные материалы',
-            url: 'materials.html',
-            icon: '📚',
-            description: 'Лекции и уставы: вводный инструктаж, основы службы, КПС, профориентация, медподготовка, строевая, огневая, физподготовка',
-            keywords: ['материалы', 'лекции', 'уставы', 'презентации', 'строевой устав', 'внутренний устав', 'кпс', 'медподготовка', 'огневая', 'строевая']
-        },
-        {
-            title: 'Коды реагирования',
-            url: 'codes.html',
-            icon: '🚨',
-            description: 'КОД-1 (штатный), КОД-2 (нарушение), КОД-3 (нападение), КОД-4 (тревога). Порядок действий',
-            keywords: ['коды', 'код-1', 'код-2', 'код-3', 'код-4', 'тревога', 'нападение', 'нарушение', 'штатный режим']
-        },
-        {
-            title: 'Военная присяга',
-            url: 'oath.html',
-            icon: '🪖',
-            description: 'Текст военной присяги, церемония принятия, обязательность для повышения',
-            keywords: ['присяга', 'клятва', 'текст присяги', 'церемония', 'торжественная']
-        },
-        {
-            title: 'Посты',
-            url: 'posts.html',
-            icon: '🛡',
-            description: 'КПП-1 проходная, КПП-1, КПП-2, Вышка, Штаб. Форма одежды, обязанности, доклады',
-            keywords: ['посты', 'кпп', 'кпп-1', 'кпп-2', 'вышка', 'штаб', 'проходная', 'доклады', 'форма одежды', 'обязанности']
-        },
-        {
-            title: 'Поставки',
-            url: 'supplies.html',
-            icon: '📦',
-            description: 'Поставочные объекты: МС, РЛС, Об7, ВС/ГСМО, Фин, ЗМХ, ЦМС. Требования к скриншотам',
-            keywords: ['поставки', 'мс', 'рлс', 'об7', 'гсмо', 'змх', 'цмс', 'скриншоты', 'бодикамера', 'ящик', 'жёлтая линия']
-        },
-        {
-            title: 'Повышение',
-            url: 'promotion.html',
-            icon: '📈',
-            description: 'Критерии повышения для УР и ВА: Рядовой → Ефрейтор → Мл. сержант → Сержант',
-            keywords: ['повышение', 'критерии', 'ефрейтор', 'мл. сержант', 'сержант', 'рапорт', 'отчёты', 'сейф-документов', 'экзамен']
-        },
-        {
-            title: 'Командование',
-            url: 'leadership.html',
-            icon: '⭐',
-            description: 'Руководящий состав: Командир УБ, Командир УР, Начальник ВА, Отдел кадров',
-            keywords: ['командование', 'командир', 'начальник', 'руководство', 'левицкий', 'андерсон', 'третьяков', 'волнов']
-        },
-        {
-            title: 'FAQ',
-            url: 'faq.html',
-            icon: '❓',
-            description: 'Ответы на частые вопросы: обучение, повышение, посты, поставки, Discord',
-            keywords: ['faq', 'вопросы', 'ответы', 'частые вопросы', 'помощь']
-        }
-    ];
-
-
-    function performSearch(query) {
-        if (!query || query.length < 2) return [];
-
-        const q = query.toLowerCase();
-        const results = [];
-
-        for (const item of searchIndex) {
-            let score = 0;
-            let matchedText = '';
-
-
-            if (item.title.toLowerCase().includes(q)) {
-                score += 100;
-                matchedText = item.title;
-            }
-
-
-            for (const keyword of item.keywords) {
-                if (keyword.toLowerCase().includes(q)) {
-                    score += 50;
-                    if (!matchedText) matchedText = keyword;
+        function performSearch(query) {
+            if (!query || query.length < 2) return [];
+            const q = query.toLowerCase();
+            const results = [];
+            for (const item of searchIndex) {
+                let score = 0;
+                let matchedText = '';
+                if (item.title.toLowerCase().includes(q)) {
+                    score += 100;
+                    matchedText = item.title;
+                }
+                for (const keyword of item.keywords) {
+                    if (keyword.toLowerCase().includes(q)) {
+                        score += 50;
+                        if (!matchedText) matchedText = keyword;
+                    }
+                }
+                if (item.description.toLowerCase().includes(q)) {
+                    score += 20;
+                    if (!matchedText) matchedText = item.description.substring(0, 60);
+                }
+                if (score > 0) {
+                    results.push({ ...item, score, matchedText });
                 }
             }
-
-
-            if (item.description.toLowerCase().includes(q)) {
-                score += 20;
-                if (!matchedText) matchedText = item.description.substring(0, 60);
-            }
-
-            if (score > 0) {
-                results.push({ ...item, score, matchedText });
-            }
+            results.sort((a, b) => b.score - a.score);
+            return results.slice(0, 10);
         }
 
-
-        results.sort((a, b) => b.score - a.score);
-
-        return results.slice(0, 10); // топ-10 результатов
-    }
-
-
-    function highlightText(text, query) {
-        if (!query) return escapeHtml(text);
-        const escaped = escapeHtml(text);
-        const regex = new RegExp(`(${escapeRegex(query)})`, 'gi');
-        return escaped.replace(regex, '<span class="search-highlight">$1</span>');
-    }
-
-
-    function renderSearchResults(results, query) {
-        if (results.length === 0) {
-            searchResults.innerHTML = `
-                <div class="search-empty">
-                    <span>🔍</span>
-                    <p>Ничего не найдено по запросу «${escapeHtml(query)}»</p>
-                    <small>Попробуй изменить запрос или используй чат-бот 🤖</small>
-                </div>
-            `;
-            searchResults.classList.add('is-open');
-            return;
+        function highlightText(text, query) {
+            if (!query) return escapeHtml(text);
+            const escaped = escapeHtml(text);
+            const regex = new RegExp(`(${escapeRegex(query)})`, 'gi');
+            return escaped.replace(regex, '<span class="search-highlight">$1</span>');
         }
 
-        let html = '';
-        results.forEach((item, index) => {
-            html += `
-                <a href="${item.url}" class="search-result" data-index="${index}">
-                    <span class="search-result__icon">${item.icon}</span>
-                    <div class="search-result__content">
-                        <div class="search-result__title">${highlightText(item.title, query)}</div>
-                        <div class="search-result__desc">${highlightText(item.description, query)}</div>
+        function renderSearchResults(results, query) {
+            if (results.length === 0) {
+                searchResults.innerHTML = `
+                    <div class="search-empty">
+                        <span>🔍</span>
+                        <p>Ничего не найдено по запросу «${escapeHtml(query)}»</p>
+                        <small>Попробуй изменить запрос или используй чат-бот 🤖</small>
                     </div>
-                    <span class="search-result__arrow">→</span>
-                </a>
-            `;
+                `;
+                searchResults.classList.add('is-open');
+                return;
+            }
+            let html = '';
+            results.forEach((item, index) => {
+                html += `
+                    <a href="${item.url}" class="search-result" data-index="${index}">
+                        <span class="search-result__icon">${item.icon}</span>
+                        <div class="search-result__content">
+                            <div class="search-result__title">${highlightText(item.title, query)}</div>
+                            <div class="search-result__desc">${highlightText(item.description, query)}</div>
+                        </div>
+                        <span class="search-result__arrow">→</span>
+                    </a>
+                `;
+            });
+            searchResults.innerHTML = html;
+            searchResults.classList.add('is-open');
+            let activeIndex = -1;
+            const resultItems = searchResults.querySelectorAll('.search-result');
+            searchInput.addEventListener('keydown', handleKeydown);
+            function handleKeydown(e) {
+                if (e.key === 'ArrowDown') {
+                    e.preventDefault();
+                    activeIndex = Math.min(activeIndex + 1, resultItems.length - 1);
+                    updateActive();
+                } else if (e.key === 'ArrowUp') {
+                    e.preventDefault();
+                    activeIndex = Math.max(activeIndex - 1, 0);
+                    updateActive();
+                } else if (e.key === 'Enter' && activeIndex >= 0) {
+                    e.preventDefault();
+                    resultItems[activeIndex].click();
+                } else if (e.key === 'Escape') {
+                    closeSearch();
+                }
+            }
+            function updateActive() {
+                resultItems.forEach((item, i) => {
+                    item.classList.toggle('is-active', i === activeIndex);
+                });
+            }
+        }
+
+        function closeSearch() {
+            searchResults.classList.remove('is-open');
+            searchResults.innerHTML = '';
+        }
+
+        let searchTimeout;
+        function debounceSearch(query) {
+            clearTimeout(searchTimeout);
+            searchTimeout = setTimeout(() => {
+                const results = performSearch(query);
+                renderSearchResults(results, query);
+            }, 300);
+        }
+
+        searchInput.addEventListener('input', (e) => {
+            const q = e.target.value.trim();
+            searchClear.classList.toggle('is-visible', q.length > 0);
+            if (q.length < 2) {
+                closeSearch();
+                return;
+            }
+            debounceSearch(q);
         });
 
-        searchResults.innerHTML = html;
-        searchResults.classList.add('is-open');
+        searchClear.addEventListener('click', () => {
+            searchInput.value = '';
+            searchClear.classList.remove('is-visible');
+            closeSearch();
+            searchInput.focus();
+        });
 
-
-        let activeIndex = -1;
-        const resultItems = searchResults.querySelectorAll('.search-result');
-
-        searchInput.addEventListener('keydown', handleKeydown);
-
-        function handleKeydown(e) {
-            if (e.key === 'ArrowDown') {
-                e.preventDefault();
-                activeIndex = Math.min(activeIndex + 1, resultItems.length - 1);
-                updateActive();
-            } else if (e.key === 'ArrowUp') {
-                e.preventDefault();
-                activeIndex = Math.max(activeIndex - 1, 0);
-                updateActive();
-            } else if (e.key === 'Enter' && activeIndex >= 0) {
-                e.preventDefault();
-                resultItems[activeIndex].click();
-            } else if (e.key === 'Escape') {
+        document.addEventListener('click', (e) => {
+            if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
                 closeSearch();
             }
-        }
+        });
 
-        function updateActive() {
-            resultItems.forEach((item, i) => {
-                item.classList.toggle('is-active', i === activeIndex);
-            });
-        }
+        document.addEventListener('keydown', (e) => {
+            if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+                e.preventDefault();
+                searchInput.focus();
+                searchInput.select();
+            }
+        });
     }
 
-
-    function closeSearch() {
-        searchResults.classList.remove('is-open');
-        searchResults.innerHTML = '';
-    }
-
-
-    let searchTimeout;
-    function debounceSearch(query) {
-        clearTimeout(searchTimeout);
-        searchTimeout = setTimeout(() => {
-            const results = performSearch(query);
-            renderSearchResults(results, query);
-        }, 300);
-    }
-
-
-    searchInput.addEventListener('input', (e) => {
-        const q = e.target.value.trim();
-        searchClear.classList.toggle('is-visible', q.length > 0);
-
-        if (q.length < 2) {
-            closeSearch();
-            return;
-        }
-
-        debounceSearch(q);
-    });
-
-    searchClear.addEventListener('click', () => {
-        searchInput.value = '';
-        searchClear.classList.remove('is-visible');
-        closeSearch();
-        searchInput.focus();
-    });
-
-
-    document.addEventListener('click', (e) => {
-        if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
-            closeSearch();
-        }
-    });
-
-
-    document.addEventListener('keydown', (e) => {
-        if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
-            e.preventDefault();
-            searchInput.focus();
-            searchInput.select();
-        }
-    });
-}
-
-    /* ---------- ЧАТ-БОТ ---------- */
     const chatbotToggle = document.getElementById('chatbotToggle');
     const chatbotWindow = document.getElementById('chatbotWindow');
     const chatbotClose = document.getElementById('chatbotClose');
@@ -1087,6 +903,33 @@ if (searchInput) {
     const chatbotQuick = document.getElementById('chatbotQuick');
 
     if (chatbotToggle && chatbotWindow) {
+
+        // ========== ЛОГИРОВАНИЕ НЕИЗВЕСТНЫХ ВОПРОСОВ В DISCORD ==========
+        const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1537576069010563172/NRhCM9_s2mwbq9UgyLdKYFcYcEm3WTGyBqBFKn1nM3WiKBoedr0hIGmKBRkAVziJ6FdT';
+        let lastLogTime = 0;
+
+        function logUnknownQuestion(question) {
+            const now = Date.now();
+            if (now - lastLogTime < 10000) return;
+            lastLogTime = now;
+
+            if (!DISCORD_WEBHOOK_URL || DISCORD_WEBHOOK_URL.includes('ВСТАВЬ')) return;
+
+            fetch(DISCORD_WEBHOOK_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    embeds: [{
+                        title: '❓ Бот не знает ответа',
+                        description: `«${question}»`,
+                        color: 0xfbbf24,
+                        footer: { text: 'Добавь этот вопрос в базу знаний бота' },
+                        timestamp: new Date().toISOString()
+                    }]
+                })
+            }).catch(() => {});
+        }
+
         chatbotToggle.addEventListener('click', () => {
             chatbotWindow.classList.toggle('is-open');
             if (chatbotWindow.classList.contains('is-open')) {
@@ -1101,13 +944,11 @@ if (searchInput) {
         function addMessage(text, type = 'bot', link = null) {
             const msg = document.createElement('div');
             msg.className = `chatbot__message chatbot__message--${type}`;
-
             let html = `<div class="chatbot__message-bubble">${text.replace(/\n/g, '<br>')}`;
             if (link) {
                 html += `<br><a href="${link.url}">📄 ${link.text}</a>`;
             }
             html += '</div>';
-
             msg.innerHTML = html;
             chatbotMessages.appendChild(msg);
             chatbotMessages.scrollTop = chatbotMessages.scrollHeight;
@@ -1143,6 +984,9 @@ if (searchInput) {
                 hideTyping();
                 const answer = findAnswer(text);
                 addMessage(answer.answer, 'bot', answer.link);
+                if (answer.answer === fallbackAnswer) {
+                    logUnknownQuestion(text);
+                }
             }, 600 + Math.random() * 400);
             chatbotInput.value = '';
         }
@@ -1157,7 +1001,6 @@ if (searchInput) {
             if (btn) handleQuestion(btn.dataset.question);
         });
 
-
         if (!document.getElementById('typingAnimationStyle')) {
             const style = document.createElement('style');
             style.id = 'typingAnimationStyle';
@@ -1171,7 +1014,6 @@ if (searchInput) {
         }
     }
 
-    /* ---------- КНОПКА ОТКРЫТИЯ ЧАТ-БОТА (на главной) ---------- */
     const openChatbotBtn = document.getElementById('openChatbot');
     if (openChatbotBtn) {
         openChatbotBtn.addEventListener('click', () => {
@@ -1182,7 +1024,6 @@ if (searchInput) {
         });
     }
 
-    /* ---------- ЧЕК-ЛИСТ ПЕРВОГО ПОВЫШЕНИЯ ---------- */
     const divisionBtns = document.querySelectorAll('.checklist__switcher-btn');
     const checklistUR = document.getElementById('checklistUR');
     const checklistVA = document.getElementById('checklistVA');
@@ -1196,14 +1037,12 @@ if (searchInput) {
         function switchDivision(division) {
             currentDivision = division;
             localStorage.setItem('checklist_division', division);
-
             divisionBtns.forEach(btn => {
                 btn.classList.toggle(
                     'checklist__switcher-btn--active',
                     btn.dataset.division === division
                 );
             });
-
             if (division === 'ur') {
                 checklistUR.style.display = 'grid';
                 checklistVA.style.display = 'none';
@@ -1211,7 +1050,6 @@ if (searchInput) {
                 checklistUR.style.display = 'none';
                 checklistVA.style.display = 'grid';
             }
-
             updateChecklistProgress();
         }
 
@@ -1221,7 +1059,6 @@ if (searchInput) {
             const total = checkboxes.length;
             const checked = activeChecklist.querySelectorAll('.checklist__checkbox:checked').length;
             const percent = total > 0 ? (checked / total) * 100 : 0;
-
             if (checklistProgress) {
                 checklistProgress.style.width = percent + '%';
             }
@@ -1279,7 +1116,6 @@ if (searchInput) {
         switchDivision(currentDivision);
     }
 
-    /* ---------- СЛОВАРЬ НОВОБРАНЦА ---------- */
     const dictGrid = document.getElementById('dictGrid');
     const dictSearch = document.getElementById('dictSearch');
     const dictCounter = document.getElementById('dictCounter');
@@ -1299,7 +1135,6 @@ if (searchInput) {
 
         function renderDictionary() {
             dictGrid.innerHTML = '';
-
             const filtered = dictionaryData.filter(item => {
                 const matchesCategory = activeCategory === 'all' || item.category === activeCategory;
                 const q = searchQuery.toLowerCase();
@@ -1309,28 +1144,22 @@ if (searchInput) {
                     item.description.toLowerCase().includes(q);
                 return matchesCategory && matchesQuery;
             });
-
             if (dictCounter) {
                 dictCounter.textContent = `Найдено: ${filtered.length}`;
             }
-
             if (filtered.length === 0) {
                 if (dictEmpty) dictEmpty.style.display = 'block';
                 dictGrid.style.display = 'none';
                 return;
             }
-
             if (dictEmpty) dictEmpty.style.display = 'none';
             dictGrid.style.display = 'grid';
-
             filtered.forEach(item => {
                 const card = document.createElement('div');
                 card.className = 'dict-card';
-
                 const termHtml = highlightMatch(item.term, searchQuery);
                 const fullHtml = highlightMatch(item.full, searchQuery);
                 const descHtml = highlightMatch(item.description, searchQuery);
-
                 card.innerHTML = `
                     <div class="dict-card__header">
                         <span class="dict-card__term">${termHtml}</span>
@@ -1341,7 +1170,6 @@ if (searchInput) {
                     <div class="dict-card__full">${fullHtml}</div>
                     <p class="dict-card__desc">${descHtml}</p>
                 `;
-
                 dictGrid.appendChild(card);
             });
         }
@@ -1363,670 +1191,413 @@ if (searchInput) {
         renderDictionary();
     }
 
-/* ---------- ПРИСЯГА: КОПИРОВАНИЕ И ПРОСЛУШИВАНИЕ ---------- */
-const copyOathBtn = document.getElementById('copyOathBtn');
-const listenOathBtn = document.getElementById('listenOathBtn');
-const oathText = document.getElementById('oathText');
+    const copyOathBtn = document.getElementById('copyOathBtn');
+    const listenOathBtn = document.getElementById('listenOathBtn');
+    const oathText = document.getElementById('oathText');
 
-if (copyOathBtn && oathText) {
-    copyOathBtn.addEventListener('click', () => {
-        const text = oathText.innerText;
-        
-        if (navigator.clipboard && window.isSecureContext) {
-            navigator.clipboard.writeText(text).then(() => showCopied(copyOathBtn));
-        } else {
-            const textarea = document.createElement('textarea');
-            textarea.value = text;
-            textarea.style.position = 'fixed';
-            textarea.style.opacity = '0';
-            document.body.appendChild(textarea);
-            textarea.select();
-            try {
-                document.execCommand('copy');
-                showCopied(copyOathBtn);
-            } catch (err) {
-                alert('Не удалось скопировать. Выделите текст вручную.');
-            }
-            document.body.removeChild(textarea);
-        }
-    });
-}
-
-function showCopied(btn) {
-    const originalText = btn.textContent;
-    btn.textContent = '✅ Скопировано!';
-    btn.style.background = '#22c55e';
-    setTimeout(() => {
-        btn.textContent = originalText;
-        btn.style.background = '';
-    }, 2000);
-}
-
-if (listenOathBtn && oathText) {
-    const originalBtnText = '🔊 Прослушать';
-    
-    listenOathBtn.addEventListener('click', () => {
-        if (!('speechSynthesis' in window)) {
-            alert('Ваш браузер не поддерживает синтез речи. Попробуй Chrome или Edge.');
-            return;
-        }
-
-
-        if (listenOathBtn.textContent === '⏹ Остановить') {
-            window.speechSynthesis.cancel();
-            listenOathBtn.textContent = originalBtnText;
-            return;
-        }
-
-
-        window.speechSynthesis.cancel();
-
-        const text = oathText.innerText.replace(/\(Фамилия Имя\)/g, 'Фамилия Имя');
-        const utterance = new SpeechSynthesisUtterance(text);
-        utterance.lang = 'ru-RU';
-        utterance.rate = 0.9;
-        utterance.pitch = 1;
-
-
-        listenOathBtn.textContent = '⏹ Остановить';
-
-
-        utterance.onend = () => {
-            listenOathBtn.textContent = originalBtnText;
-        };
-
-
-        window.speechSynthesis.speak(utterance);
-    });
-}
-
-        /* ---------- УЧЕБНЫЕ МАТЕРИАЛЫ ---------- */
-const materialsGrid = document.getElementById('materialsGrid');
-const materialsSearch = document.getElementById('materialsSearch');
-const materialsCounter = document.getElementById('materialsCounter');
-const materialsEmpty = document.getElementById('materialsEmpty');
-const materialsFilterBtns = document.querySelectorAll('.dict-filter');
-
-if (materialsGrid && materialsSearch) {
-
-
-    const materialsData = [
-
-        {
-            title: 'Вводный инструктаж и Курс молодого бойца',
-            category: 'lecture',
-            required: true,
-            description: 'Вступительная лекция для новых военнослужащих Учебного батальона.',
-            url: 'https://docs.google.com/presentation/d/1qVMKkH1hrVfCFZtJobKFltuXSjVWIdUBT6I3jfhdwzo/present',
-            icon: '🎯'
-        },
-        {
-            title: 'Основы службы в 1-ой ОМСБр',
-            category: 'lecture',
-            required: true,
-            description: 'Лекция по Уставу ВС РФ и основам военной службы.',
-            url: 'https://docs.google.com/presentation/d/1eePdc8TDSHaCL_I2tDG470H7I81IN2cwGSBzZO9NULM/present',
-            icon: '📜'
-        },
-        {
-            title: 'Караульно-постовая служба (КПС)',
-            category: 'lecture',
-            required: true,
-            description: 'Изучение правил несения службы на постах и порядка докладов.',
-            url: 'https://docs.google.com/presentation/d/16ouq2lNEXGQ9xAW8A7NlOAR_37jDfAkyuKNWjMcULVU/present',
-            icon: '🛡'
-        },
-        {
-            title: 'Профориентация военнослужащих',
-            category: 'lecture',
-            required: false,
-            description: 'Информация о направлениях службы и возможностях развития.',
-            url: 'https://docs.google.com/presentation/d/1FUEG5QyyQG46-Dvud7yLlhtlKDDIFZ1zlBjP3MBEs9c/present?slide=id.p',
-            icon: '🧭'
-        },
-        {
-            title: 'Медицинская подготовка',
-            category: 'lecture',
-            required: false,
-            description: 'Основы первой помощи и действия военнослужащих в различных ситуациях.',
-            url: 'https://docs.google.com/presentation/d/1j5FtmRobzMDzgf3SkT2XT4smFCreJsvicadmHHhvyro/present?slide=id.p',
-            icon: '⚕️'
-        },
-        {
-            title: 'Строевая подготовка',
-            category: 'lecture',
-            required: false,
-            description: 'Изучение строевых приёмов, команд и действий в строю.',
-            url: 'https://docs.google.com/presentation/d/19JvOYrRSF9OWIY6-Xo2REJoj_UvIMTWo9iq9e_mmDWM/present?slide=id.p',
-            icon: '🎖'
-        },
-        {
-            title: 'Боевая подготовка',
-            category: 'lecture',
-            required: false,
-            description: 'Основы военной подготовки, тактики и действий военнослужащего.',
-            url: 'https://docs.google.com/presentation/d/1ibaHn4eOe7JbBSPMqguUXvILiUvP7TJ5I1BQUMfn6FU/present?slide=id.p',
-            icon: '⚔️'
-        },
-        {
-            title: 'Огневая подготовка',
-            category: 'lecture',
-            required: false,
-            description: 'Основы обращения с оружием, правила безопасности и порядок выполнения огневых задач.',
-            url: 'https://docs.google.com/presentation/d/1N2Muk8eZIbKOA--J40oGre2Csc5_UgQy9nnwhs1Is-U/present?slide=id.g3d4bbec5134_0_61',
-            icon: '🔫'
-        },
-        {
-            title: 'Физическая подготовка',
-            category: 'lecture',
-            required: false,
-            description: 'Требования к физической подготовке и порядок проведения тренировок.',
-            url: 'https://docs.google.com/presentation/d/1qcGeWhLZ9LsGEIX528kb3LQ3PdXgz-z8YwxNKL2_r0M/present?slide=id.g3d4bc2996e5_0_0',
-            icon: '🏃'
-        },
-        {
-            title: 'Причёски военнослужащих',
-            category: 'lecture',
-            required: false,
-            description: 'Требования к внешнему виду военнослужащих женского пола в Учебном батальоне.',
-            url: 'https://docs.google.com/presentation/d/1g0ZY81gUIefkzpvgTZVCyhmBFFDMBihR_uumYIgfBw4/present?slide=id.g3d4bebaab53_0_289',
-            icon: '💇'
-        },
-
-
-        {
-            title: 'Строевой устав',
-            category: 'ustav',
-            required: false,
-            description: 'Основные положения строевой подготовки, строевые приёмы, команды и действия военнослужащих в строю.',
-            url: 'https://docs.google.com/document/d/1c0fOpV8oDkgbGZ_TnY4Stmb_V8ly4tlQhkzavCPtAQk/edit?tab=t.0',
-            icon: '📜'
-        },
-        {
-            title: 'Внутренний устав',
-            category: 'ustav',
-            required: true,
-            description: 'Основные правила внутреннего порядка, обязанности военнослужащих, взаимоотношения между личным составом.',
-            url: 'https://docs.google.com/document/d/1yDz8qkNMLbhsntXQvkurHOr0Pa5JIjVSuZZX4iOuxdI/edit?tab=t.0',
-            icon: '📖'
-        },
-        {
-            title: 'Устав караульно-постовой службы',
-            category: 'ustav',
-            required: true,
-            description: 'Порядок организации караульной службы, обязанности караульных и постовых, правила несения службы.',
-            url: 'https://docs.google.com/document/d/1S9H5sHI_YWaiH9Es-VFrGC0mkAi7uouKiYHw5gu_B8k/edit?tab=t.0',
-            icon: '🛡'
-        }
-    ];
-
-    let activeCategory = 'all';
-    let searchQuery = '';
-
-    function renderMaterials() {
-        materialsGrid.innerHTML = '';
-
-        const filtered = materialsData.filter(item => {
-            let matchesCategory = true;
-            
-            if (activeCategory === 'all') {
-                matchesCategory = true;
-            } else if (activeCategory === 'required') {
-                matchesCategory = item.required;
+    if (copyOathBtn && oathText) {
+        copyOathBtn.addEventListener('click', () => {
+            const text = oathText.innerText;
+            if (navigator.clipboard && window.isSecureContext) {
+                navigator.clipboard.writeText(text).then(() => showCopied(copyOathBtn));
             } else {
-                matchesCategory = item.category === activeCategory;
+                const textarea = document.createElement('textarea');
+                textarea.value = text;
+                textarea.style.position = 'fixed';
+                textarea.style.opacity = '0';
+                document.body.appendChild(textarea);
+                textarea.select();
+                try {
+                    document.execCommand('copy');
+                    showCopied(copyOathBtn);
+                } catch (err) {
+                    alert('Не удалось скопировать. Выделите текст вручную.');
+                }
+                document.body.removeChild(textarea);
             }
-
-            const q = searchQuery.toLowerCase();
-            const matchesQuery = !q ||
-                item.title.toLowerCase().includes(q) ||
-                item.description.toLowerCase().includes(q);
-
-            return matchesCategory && matchesQuery;
-        });
-
-        if (materialsCounter) {
-            materialsCounter.textContent = `Найдено: ${filtered.length}`;
-        }
-
-        if (filtered.length === 0) {
-            if (materialsEmpty) materialsEmpty.style.display = 'block';
-            materialsGrid.style.display = 'none';
-            return;
-        }
-
-        if (materialsEmpty) materialsEmpty.style.display = 'none';
-        materialsGrid.style.display = 'grid';
-
-        filtered.forEach(item => {
-            const card = document.createElement('a');
-            card.className = 'material-card';
-            card.href = item.url;
-            card.target = '_blank';
-            card.rel = 'noopener noreferrer';
-
-            const requiredBadge = item.required 
-                ? '<span class="material-card__badge material-card__badge--required">⭐ Обязательно</span>' 
-                : '';
-
-            const categoryLabel = item.category === 'lecture' ? '📚 Лекция' : '📜 Устав';
-
-            card.innerHTML = `
-                <div class="material-card__icon">${item.icon}</div>
-                <div class="material-card__content">
-                    <div class="material-card__badges">
-                        <span class="material-card__badge">${categoryLabel}</span>
-                        ${requiredBadge}
-                    </div>
-                    <h3 class="material-card__title">${item.title}</h3>
-                    <p class="material-card__desc">${item.description}</p>
-                </div>
-                <div class="material-card__arrow">→</div>
-            `;
-
-            materialsGrid.appendChild(card);
         });
     }
 
-    materialsSearch.addEventListener('input', (e) => {
-        searchQuery = e.target.value.trim();
-        renderMaterials();
-    });
+    function showCopied(btn) {
+        const originalText = btn.textContent;
+        btn.textContent = '✅ Скопировано!';
+        btn.style.background = '#22c55e';
+        setTimeout(() => {
+            btn.textContent = originalText;
+            btn.style.background = '';
+        }, 2000);
+    }
 
-    materialsFilterBtns.forEach(btn => {
-        btn.addEventListener('click', () => {
-            activeCategory = btn.dataset.category;
-            materialsFilterBtns.forEach(b => b.classList.remove('dict-filter--active'));
-            btn.classList.add('dict-filter--active');
+    if (listenOathBtn && oathText) {
+        const originalBtnText = '🔊 Прослушать';
+        listenOathBtn.addEventListener('click', () => {
+            if (!('speechSynthesis' in window)) {
+                alert('Ваш браузер не поддерживает синтез речи. Попробуй Chrome или Edge.');
+                return;
+            }
+            if (listenOathBtn.textContent === '⏹ Остановить') {
+                window.speechSynthesis.cancel();
+                listenOathBtn.textContent = originalBtnText;
+                return;
+            }
+            window.speechSynthesis.cancel();
+            const text = oathText.innerText.replace(/\(Фамилия Имя\)/g, 'Фамилия Имя');
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.lang = 'ru-RU';
+            utterance.rate = 0.9;
+            utterance.pitch = 1;
+            listenOathBtn.textContent = '⏹ Остановить';
+            utterance.onend = () => {
+                listenOathBtn.textContent = originalBtnText;
+            };
+            window.speechSynthesis.speak(utterance);
+        });
+    }
+
+    const materialsGrid = document.getElementById('materialsGrid');
+    const materialsSearch = document.getElementById('materialsSearch');
+    const materialsCounter = document.getElementById('materialsCounter');
+    const materialsEmpty = document.getElementById('materialsEmpty');
+    const materialsFilterBtns = document.querySelectorAll('.dict-filter');
+
+    if (materialsGrid && materialsSearch) {
+        const materialsData = [
+            { title: 'Вводный инструктаж и Курс молодого бойца', category: 'lecture', required: true, description: 'Вступительная лекция для новых военнослужащих Учебного батальона.', url: 'https://docs.google.com/presentation/d/1qVMKkH1hrVfCFZtJobKFltuXSjVWIdUBT6I3jfhdwzo/present', icon: '🎯' },
+            { title: 'Основы службы в 1-ой ОМСБр', category: 'lecture', required: true, description: 'Лекция по Уставу ВС РФ и основам военной службы.', url: 'https://docs.google.com/presentation/d/1eePdc8TDSHaCL_I2tDG470H7I81IN2cwGSBzZO9NULM/present', icon: '📜' },
+            { title: 'Караульно-постовая служба (КПС)', category: 'lecture', required: true, description: 'Изучение правил несения службы на постах и порядка докладов.', url: 'https://docs.google.com/presentation/d/16ouq2lNEXGQ9xAW8A7NlOAR_37jDfAkyuKNWjMcULVU/present', icon: '🛡' },
+            { title: 'Профориентация военнослужащих', category: 'lecture', required: false, description: 'Информация о направлениях службы и возможностях развития.', url: 'https://docs.google.com/presentation/d/1FUEG5QyyQG46-Dvud7yLlhtlKDDIFZ1zlBjP3MBEs9c/present?slide=id.p', icon: '🧭' },
+            { title: 'Медицинская подготовка', category: 'lecture', required: false, description: 'Основы первой помощи и действия военнослужащих в различных ситуациях.', url: 'https://docs.google.com/presentation/d/1j5FtmRobzMDzgf3SkT2XT4smFCreJsvicadmHHhvyro/present?slide=id.p', icon: '⚕️' },
+            { title: 'Строевая подготовка', category: 'lecture', required: false, description: 'Изучение строевых приёмов, команд и действий в строю.', url: 'https://docs.google.com/presentation/d/19JvOYrRSF9OWIY6-Xo2REJoj_UvIMTWo9iq9e_mmDWM/present?slide=id.p', icon: '🎖' },
+            { title: 'Боевая подготовка', category: 'lecture', required: false, description: 'Основы военной подготовки, тактики и действий военнослужащего.', url: 'https://docs.google.com/presentation/d/1ibaHn4eOe7JbBSPMqguUXvILiUvP7TJ5I1BQUMfn6FU/present?slide=id.p', icon: '⚔️' },
+            { title: 'Огневая подготовка', category: 'lecture', required: false, description: 'Основы обращения с оружием, правила безопасности и порядок выполнения огневых задач.', url: 'https://docs.google.com/presentation/d/1N2Muk8eZIbKOA--J40oGre2Csc5_UgQy9nnwhs1Is-U/present?slide=id.g3d4bbec5134_0_61', icon: '🔫' },
+            { title: 'Физическая подготовка', category: 'lecture', required: false, description: 'Требования к физической подготовке и порядок проведения тренировок.', url: 'https://docs.google.com/presentation/d/1qcGeWhLZ9LsGEIX528kb3LQ3PdXgz-z8YwxNKL2_r0M/present?slide=id.g3d4bc2996e5_0_0', icon: '🏃' },
+            { title: 'Причёски военнослужащих', category: 'lecture', required: false, description: 'Требования к внешнему виду военнослужащих женского пола в Учебном батальоне.', url: 'https://docs.google.com/presentation/d/1g0ZY81gUIefkzpvgTZVCyhmBFFDMBihR_uumYIgfBw4/present?slide=id.g3d4bebaab53_0_289', icon: '💇' },
+            { title: 'Строевой устав', category: 'ustav', required: false, description: 'Основные положения строевой подготовки, строевые приёмы, команды и действия военнослужащих в строю.', url: 'https://docs.google.com/document/d/1c0fOpV8oDkgbGZ_TnY4Stmb_V8ly4tlQhkzavCPtAQk/edit?tab=t.0', icon: '📜' },
+            { title: 'Внутренний устав', category: 'ustav', required: true, description: 'Основные правила внутреннего порядка, обязанности военнослужащих, взаимоотношения между личным составом.', url: 'https://docs.google.com/document/d/1yDz8qkNMLbhsntXQvkurHOr0Pa5JIjVSuZZX4iOuxdI/edit?tab=t.0', icon: '📖' },
+            { title: 'Устав караульно-постовой службы', category: 'ustav', required: true, description: 'Порядок организации караульной службы, обязанности караульных и постовых, правила несения службы.', url: 'https://docs.google.com/document/d/1S9H5sHI_YWaiH9Es-VFrGC0mkAi7uouKiYHw5gu_B8k/edit?tab=t.0', icon: '🛡' }
+        ];
+
+        let activeCategory = 'all';
+        let searchQuery = '';
+
+        function renderMaterials() {
+            materialsGrid.innerHTML = '';
+            const filtered = materialsData.filter(item => {
+                let matchesCategory = true;
+                if (activeCategory === 'all') {
+                    matchesCategory = true;
+                } else if (activeCategory === 'required') {
+                    matchesCategory = item.required;
+                } else {
+                    matchesCategory = item.category === activeCategory;
+                }
+                const q = searchQuery.toLowerCase();
+                const matchesQuery = !q ||
+                    item.title.toLowerCase().includes(q) ||
+                    item.description.toLowerCase().includes(q);
+                return matchesCategory && matchesQuery;
+            });
+            if (materialsCounter) {
+                materialsCounter.textContent = `Найдено: ${filtered.length}`;
+            }
+            if (filtered.length === 0) {
+                if (materialsEmpty) materialsEmpty.style.display = 'block';
+                materialsGrid.style.display = 'none';
+                return;
+            }
+            if (materialsEmpty) materialsEmpty.style.display = 'none';
+            materialsGrid.style.display = 'grid';
+            filtered.forEach(item => {
+                const card = document.createElement('a');
+                card.className = 'material-card';
+                card.href = item.url;
+                card.target = '_blank';
+                card.rel = 'noopener noreferrer';
+                const requiredBadge = item.required
+                    ? '<span class="material-card__badge material-card__badge--required">⭐ Обязательно</span>'
+                    : '';
+                const categoryLabel = item.category === 'lecture' ? '📚 Лекция' : '📜 Устав';
+                card.innerHTML = `
+                    <div class="material-card__icon">${item.icon}</div>
+                    <div class="material-card__content">
+                        <div class="material-card__badges">
+                            <span class="material-card__badge">${categoryLabel}</span>
+                            ${requiredBadge}
+                        </div>
+                        <h3 class="material-card__title">${item.title}</h3>
+                        <p class="material-card__desc">${item.description}</p>
+                    </div>
+                    <div class="material-card__arrow">→</div>
+                `;
+                materialsGrid.appendChild(card);
+            });
+        }
+
+        materialsSearch.addEventListener('input', (e) => {
+            searchQuery = e.target.value.trim();
             renderMaterials();
         });
-    });
 
-    renderMaterials();
-}
-
-/* ---------- КНОПКА ОТКРЫТИЯ ЧАТ-БОТА (со страницы материалов) ---------- */
-const openChatbotFromMaterials = document.getElementById('openChatbotFromMaterials');
-if (openChatbotFromMaterials) {
-    openChatbotFromMaterials.addEventListener('click', () => {
-        const chatbotWindow = document.getElementById('chatbotWindow');
-        const chatbotInput = document.getElementById('chatbotInput');
-        if (chatbotWindow) {
-            chatbotWindow.classList.add('is-open');
-            setTimeout(() => chatbotInput.focus(), 100);
-        }
-    });
-}
-
-/* ---------- КОПИРОВАНИЕ ДОКЛАДОВ (универсальное) ---------- */
-document.querySelectorAll('.code-block__copy').forEach(btn => {
-    btn.addEventListener('click', () => {
-        const targetId = btn.dataset.copy;
-        const targetEl = document.getElementById(targetId);
-        
-        if (!targetEl) return;
-        
-        const text = targetEl.innerText;
-        
-        if (navigator.clipboard && window.isSecureContext) {
-            navigator.clipboard.writeText(text).then(() => {
-                showCopySuccess(btn);
-            });
-        } else {
-            const textarea = document.createElement('textarea');
-            textarea.value = text;
-            textarea.style.position = 'fixed';
-            textarea.style.opacity = '0';
-            document.body.appendChild(textarea);
-            textarea.select();
-            try {
-                document.execCommand('copy');
-                showCopySuccess(btn);
-            } catch (err) {
-                alert('Не удалось скопировать.');
-            }
-            document.body.removeChild(textarea);
-        }
-    });
-});
-
-function showCopySuccess(btn) {
-    btn.classList.add('is-copied');
-    btn.textContent = '✅';
-    setTimeout(() => {
-        btn.classList.remove('is-copied');
-        btn.textContent = '📋';
-    }, 2000);
-}
-
-/* ---------- ПОВЫШЕНИЕ: ПЕРЕКЛЮЧАТЕЛЬ И ЧЕК-ЛИСТЫ ---------- */
-const promotionSwitcherBtns = document.querySelectorAll('.promotion-switcher__btn');
-const promotionDivisions = document.querySelectorAll('.promotion-division');
-
-if (promotionSwitcherBtns.length > 0 && promotionDivisions.length > 0) {
-    let currentPromotionDivision = localStorage.getItem('promotion_division') || 'ur';
-
-    function switchPromotionDivision(division) {
-        currentPromotionDivision = division;
-        localStorage.setItem('promotion_division', division);
-
-        promotionSwitcherBtns.forEach(btn => {
-            btn.classList.toggle('promotion-switcher__btn--active', btn.dataset.division === division);
-        });
-
-        promotionDivisions.forEach(div => {
-            div.style.display = div.dataset.division === division ? 'block' : 'none';
-        });
-
-        updateAllPromotionProgress();
-    }
-
-    function updatePromotionProgress(block) {
-        const checkboxes = block.querySelectorAll('.promotion-checkbox');
-        const total = checkboxes.length;
-        const checked = block.querySelectorAll('.promotion-checkbox:checked').length;
-        const percent = total > 0 ? (checked / total) * 100 : 0;
-
-        const fill = block.querySelector('.promotion-progress-fill');
-        const text = block.querySelector('.promotion-progress-text');
-
-        if (fill) fill.style.width = percent + '%';
-        if (text) text.textContent = `${checked} из ${total}`;
-    }
-
-    function updateAllPromotionProgress() {
-        document.querySelectorAll('.promotion-block').forEach(block => {
-            updatePromotionProgress(block);
-        });
-    }
-
-    function loadPromotionProgress() {
-        document.querySelectorAll('.promotion-checkbox').forEach(checkbox => {
-            const block = checkbox.closest('.promotion-block');
-            const divisionBlock = checkbox.closest('.promotion-division');
-            if (!block || !divisionBlock) return;
-            
-            const division = divisionBlock.dataset.division;
-            const level = block.dataset.level;
-            const id = checkbox.dataset.id;
-            const key = `promotion_${division}_${level}_${id}`;
-            const saved = localStorage.getItem(key);
-            if (saved === 'true') {
-                checkbox.checked = true;
-            }
-        });
-        updateAllPromotionProgress();
-    }
-
-    promotionSwitcherBtns.forEach(btn => {
-        btn.addEventListener('click', () => {
-            switchPromotionDivision(btn.dataset.division);
-        });
-    });
-
-    document.querySelectorAll('.promotion-checkbox').forEach(checkbox => {
-        checkbox.addEventListener('change', () => {
-            const block = checkbox.closest('.promotion-block');
-            const divisionBlock = checkbox.closest('.promotion-division');
-            if (!block || !divisionBlock) return;
-
-            const division = divisionBlock.dataset.division;
-            const level = block.dataset.level;
-            const id = checkbox.dataset.id;
-            const key = `promotion_${division}_${level}_${id}`;
-            localStorage.setItem(key, checkbox.checked);
-            updatePromotionProgress(block);
-        });
-    });
-
-    loadPromotionProgress();
-    switchPromotionDivision(currentPromotionDivision);
-}
-
-/* ---------- КНОПКА ОТКРЫТИЯ ЧАТ-БОТА (со страницы командования) ---------- */
-const openChatbotFromLeadership = document.getElementById('openChatbotFromLeadership');
-if (openChatbotFromLeadership) {
-    openChatbotFromLeadership.addEventListener('click', () => {
-        const chatbotWindow = document.getElementById('chatbotWindow');
-        const chatbotInput = document.getElementById('chatbotInput');
-        if (chatbotWindow) {
-            chatbotWindow.classList.add('is-open');
-            setTimeout(() => chatbotInput.focus(), 100);
-        }
-    });
-}
-
-/* ---------- FAQ ---------- */
-const faqList = document.getElementById('faqList');
-const faqSearch = document.getElementById('faqSearch');
-const faqCounter = document.getElementById('faqCounter');
-const faqEmpty = document.getElementById('faqEmpty');
-const faqFilterBtns = document.querySelectorAll('.dict-filter');
-
-if (faqList && faqSearch) {
-
-
-    const faqItems = [
-
-        {
-            category: 'general',
-            question: 'Что такое статик?',
-            answer: 'Статик — это твой уникальный номер в системе ВС РФ. Формат: XXX-XXX (например, 583-362). Он нужен для всех отчётов и рапортов.'
-        },
-        {
-            category: 'general',
-            question: 'Что такое todo?',
-            answer: 'todo — это фиксация начала или окончания занятия. Её нужно откидывать в чат «Рядом». Отписывается дважды: в начале и в конце лекции.'
-        },
-        {
-            category: 'general',
-            question: 'Что такое бодикамера и когда её включать?',
-            answer: 'Бодикамера используется для фиксации служебной деятельности: поставок, лекций, тренировок, МП/ГМП. Включай её при входе в игру и после потери сознания.'
-        },
-        {
-            category: 'general',
-            question: 'Что такое рация и как ей пользоваться?',
-            answer: 'Рация — основной канал голосовой связи в игре. Формат вызова: «УБ | [текст сообщения]». Текст пишется в верхнем регистре.'
-        },
-        {
-            category: 'general',
-            question: 'Что такое коды реагирования?',
-            answer: 'Коды реагирования — система для быстрой оценки ситуации. Всего 4 кода: КОД-1 (штатный), КОД-2 (нарушение), КОД-3 (нападение), КОД-4 (тревога).'
-        },
-
-
-        {
-            category: 'learning',
-            question: 'Как проходят лекции?',
-            answer: 'Лектор оповещает в рацию и Discord, собирает личный состав в лекционной, просит зафиксировать todo, включает демонстрацию экрана и проводит занятие. Минимальное время — 10 минут.'
-        },
-        {
-            category: 'learning',
-            question: 'Что делать, если я пропустил лекцию?',
-            answer: 'Обратись к инструктору или командиру отделения. Лекция будет проведена повторно при достаточном количестве желающих. Самостоятельное изучение материалов не заменяет лекцию.'
-        },
-        {
-            category: 'learning',
-            question: 'Как проходит экзамен?',
-            answer: 'Экзамен состоит из 40 вопросов, время — 15 минут. Проходной балл — 28 из 40. Разрешено 3 подсказки от лектора.'
-        },
-        {
-            category: 'learning',
-            question: 'Сколько попыток на экзамене?',
-            answer: 'У тебя есть 3 попытки. КД на пересдачу — 3 часа. Если не сдал все 3 попытки, обращайся к инструктору.'
-        },
-        {
-            category: 'learning',
-            question: 'Что такое присяга и когда её принимают?',
-            answer: 'Присяга — торжественная клятва на верность ВС РФ. Текст нужно знать наизусть. Принимается на первом этапе обучения, до получения первого повышения.'
-        },
-
-
-        {
-            category: 'promotion',
-            question: 'Как получить звание Ефрейтор?',
-            answer: 'Для УР: вступительная лекция, присяга, устав, КПС, строевая, физподготовка, пост 60 мин, 2 поставки. Для ВА: вступительная лекция, присяга, устав, КПС, пост 60 мин, 3 поставки.'
-        },
-        {
-            category: 'promotion',
-            question: 'Сколько поставок нужно для повышения?',
-            answer: 'УР: Рядовой→Ефрейтор = 2, Ефрейтор→Мл.сержант = 4. ВА: Рядовой→Ефрейтор = 3, Ефрейтор→Мл.сержант = 6, Мл.сержант→Сержант = 6.'
-        },
-        {
-            category: 'promotion',
-            question: 'Когда подаются отчёты на повышение?',
-            answer: 'Отчёты подаются ежедневно до 23:00. Отчёты, поданные до 23:00, рассматриваются в тот же день. После 23:00 — на следующий день. Повышение проводится с 21:00 до 00:00.'
-        },
-        {
-            category: 'promotion',
-            question: 'Что такое Сейф-документов?',
-            answer: 'Сейф-документов — Discord-канал, куда подаются документы после выполнения критериев первого повышения. Ссылка на Google-форму есть на странице «Повышение».'
-        },
-        {
-            category: 'promotion',
-            question: 'Как подать рапорт на повышение?',
-            answer: 'После выполнения всех критериев заполни Google-форму рапорта (ссылка на странице «Повышение»). Рапорт подаётся строго по установленному образцу.'
-        },
-
-
-        {
-            category: 'service',
-            question: 'Какие есть посты?',
-            answer: 'Основные посты: КПП-1, КПП-2, Вышка, Штаб, КПП-1 (проходная). Для первого повышения (Рядовой→Ефрейтор) нужен пост КПП-1 проходная или Штаб.'
-        },
-        {
-            category: 'service',
-            question: 'Как правильно докладывать на посту?',
-            answer: 'Доклады подаются каждые 20 минут. Формат: «Докладывает: Рядовой Иванов | Пост КПП-1 заступил | Состав: 1 | Код: 1 | Доклад окончен». Всего 5 докладов за смену.'
-        },
-        {
-            category: 'service',
-            question: 'Что такое поставки?',
-            answer: 'Поставки — доставка грузов на объекты (МС, РЛС, Об7 и др.). Для повышения нужны скриншоты с бодикамерой. 1 скриншот = 1 поставка.'
-        },
-        {
-            category: 'service',
-            question: 'Какие требования к скриншотам поставок?',
-            answer: 'Скриншот всего экрана. На нём должен быть виден ящик в руках или жёлтая линия поставки. Бодикамера обязательно включена. 1 скриншот = 1 поставка.'
-        },
-        {
-            category: 'service',
-            question: 'Что такое жёлтая и красная зоны?',
-            answer: 'Жёлтая зона — территория перед КПП (проверка документов). Красная зона — внутренняя территория ВЧ. Любое проникновение в красную зону считается угрозой.'
-        },
-
-
-        {
-            category: 'discord',
-            question: 'Как получить роль в Discord?',
-            answer: 'Перейди по ссылке discord.gg/R8gZc3x7ut. В канале «Получение роли» нажми кнопку «ВС РФ», заполни Фамилию, Имя и статик, затем нажми «Отправить».'
-        },
-        {
-            category: 'discord',
-            question: 'Какие каналы есть в Discord?',
-            answer: 'Основные каналы: информационный (приказы и объявления), отчётность (рапорты и заявки), голосовые (лекции и тренировки), учебный (материалы).'
-        },
-        {
-            category: 'discord',
-            question: 'Куда подавать отчёты?',
-            answer: 'Отчёты на повышение подаются в специальный канал Discord. После выполнения критериев заполни Google-форму рапорта и подай отчёт в соответствующий раздел.'
-        },
-        {
-            category: 'discord',
-            question: 'К кому обращаться, если возникла проблема?',
-            answer: 'Сначала к своему непосредственному командиру (Командир УР или Начальник ВА). Если проблема не решается — к заместителю командира УБ. Подробнее на странице «Командование».'
-        }
-    ];
-
-    let activeFaqCategory = 'all';
-    let faqSearchQuery = '';
-
-    function renderFaq() {
-        faqList.innerHTML = '';
-
-        const filtered = faqItems.filter(item => {
-            const matchesCategory = activeFaqCategory === 'all' || item.category === activeFaqCategory;
-            const q = faqSearchQuery.toLowerCase();
-            const matchesQuery = !q ||
-                item.question.toLowerCase().includes(q) ||
-                item.answer.toLowerCase().includes(q);
-            return matchesCategory && matchesQuery;
-        });
-
-        if (faqCounter) {
-            faqCounter.textContent = `Найдено: ${filtered.length}`;
-        }
-
-        if (filtered.length === 0) {
-            if (faqEmpty) faqEmpty.style.display = 'block';
-            faqList.style.display = 'none';
-            return;
-        }
-
-        if (faqEmpty) faqEmpty.style.display = 'none';
-        faqList.style.display = 'block';
-
-        filtered.forEach((item, index) => {
-            const faqItem = document.createElement('div');
-            faqItem.className = 'faq-item';
-            faqItem.innerHTML = `
-                <button class="faq-item__question" data-index="${index}">
-                    <span>${item.question}</span>
-                    <span class="faq-item__arrow">▼</span>
-                </button>
-                <div class="faq-item__answer">
-                    <p>${item.answer}</p>
-                </div>
-            `;
-            faqList.appendChild(faqItem);
-        });
-
-
-        document.querySelectorAll('.faq-item__question').forEach(btn => {
+        materialsFilterBtns.forEach(btn => {
             btn.addEventListener('click', () => {
-                const item = btn.closest('.faq-item');
-                const isOpen = item.classList.contains('is-open');
-                
+                activeCategory = btn.dataset.category;
+                materialsFilterBtns.forEach(b => b.classList.remove('dict-filter--active'));
+                btn.classList.add('dict-filter--active');
+                renderMaterials();
+            });
+        });
 
-                document.querySelectorAll('.faq-item').forEach(i => {
-                    i.classList.remove('is-open');
+        renderMaterials();
+    }
+
+    const openChatbotFromMaterials = document.getElementById('openChatbotFromMaterials');
+    if (openChatbotFromMaterials) {
+        openChatbotFromMaterials.addEventListener('click', () => {
+            const chatbotWindow = document.getElementById('chatbotWindow');
+            const chatbotInput = document.getElementById('chatbotInput');
+            if (chatbotWindow) {
+                chatbotWindow.classList.add('is-open');
+                setTimeout(() => chatbotInput.focus(), 100);
+            }
+        });
+    }
+
+    document.querySelectorAll('.code-block__copy').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const targetId = btn.dataset.copy;
+            const targetEl = document.getElementById(targetId);
+            if (!targetEl) return;
+            const text = targetEl.innerText;
+            if (navigator.clipboard && window.isSecureContext) {
+                navigator.clipboard.writeText(text).then(() => {
+                    showCopySuccess(btn);
                 });
-                
+            } else {
+                const textarea = document.createElement('textarea');
+                textarea.value = text;
+                textarea.style.position = 'fixed';
+                textarea.style.opacity = '0';
+                document.body.appendChild(textarea);
+                textarea.select();
+                try {
+                    document.execCommand('copy');
+                    showCopySuccess(btn);
+                } catch (err) {
+                    alert('Не удалось скопировать.');
+                }
+                document.body.removeChild(textarea);
+            }
+        });
+    });
 
-                if (!isOpen) {
-                    item.classList.add('is-open');
+    function showCopySuccess(btn) {
+        btn.classList.add('is-copied');
+        btn.textContent = '✅';
+        setTimeout(() => {
+            btn.classList.remove('is-copied');
+            btn.textContent = '📋';
+        }, 2000);
+    }
+
+    const promotionSwitcherBtns = document.querySelectorAll('.promotion-switcher__btn');
+    const promotionDivisions = document.querySelectorAll('.promotion-division');
+
+    if (promotionSwitcherBtns.length > 0 && promotionDivisions.length > 0) {
+        let currentPromotionDivision = localStorage.getItem('promotion_division') || 'ur';
+
+        function switchPromotionDivision(division) {
+            currentPromotionDivision = division;
+            localStorage.setItem('promotion_division', division);
+            promotionSwitcherBtns.forEach(btn => {
+                btn.classList.toggle('promotion-switcher__btn--active', btn.dataset.division === division);
+            });
+            promotionDivisions.forEach(div => {
+                div.style.display = div.dataset.division === division ? 'block' : 'none';
+            });
+            updateAllPromotionProgress();
+        }
+
+        function updatePromotionProgress(block) {
+            const checkboxes = block.querySelectorAll('.promotion-checkbox');
+            const total = checkboxes.length;
+            const checked = block.querySelectorAll('.promotion-checkbox:checked').length;
+            const percent = total > 0 ? (checked / total) * 100 : 0;
+            const fill = block.querySelector('.promotion-progress-fill');
+            const text = block.querySelector('.promotion-progress-text');
+            if (fill) fill.style.width = percent + '%';
+            if (text) text.textContent = `${checked} из ${total}`;
+        }
+
+        function updateAllPromotionProgress() {
+            document.querySelectorAll('.promotion-block').forEach(block => {
+                updatePromotionProgress(block);
+            });
+        }
+
+        function loadPromotionProgress() {
+            document.querySelectorAll('.promotion-checkbox').forEach(checkbox => {
+                const block = checkbox.closest('.promotion-block');
+                const divisionBlock = checkbox.closest('.promotion-division');
+                if (!block || !divisionBlock) return;
+                const division = divisionBlock.dataset.division;
+                const level = block.dataset.level;
+                const id = checkbox.dataset.id;
+                const key = `promotion_${division}_${level}_${id}`;
+                const saved = localStorage.getItem(key);
+                if (saved === 'true') {
+                    checkbox.checked = true;
                 }
             });
+            updateAllPromotionProgress();
+        }
+
+        promotionSwitcherBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                switchPromotionDivision(btn.dataset.division);
+            });
+        });
+
+        document.querySelectorAll('.promotion-checkbox').forEach(checkbox => {
+            checkbox.addEventListener('change', () => {
+                const block = checkbox.closest('.promotion-block');
+                const divisionBlock = checkbox.closest('.promotion-division');
+                if (!block || !divisionBlock) return;
+                const division = divisionBlock.dataset.division;
+                const level = block.dataset.level;
+                const id = checkbox.dataset.id;
+                const key = `promotion_${division}_${level}_${id}`;
+                localStorage.setItem(key, checkbox.checked);
+                updatePromotionProgress(block);
+            });
+        });
+
+        loadPromotionProgress();
+        switchPromotionDivision(currentPromotionDivision);
+    }
+
+    const openChatbotFromLeadership = document.getElementById('openChatbotFromLeadership');
+    if (openChatbotFromLeadership) {
+        openChatbotFromLeadership.addEventListener('click', () => {
+            const chatbotWindow = document.getElementById('chatbotWindow');
+            const chatbotInput = document.getElementById('chatbotInput');
+            if (chatbotWindow) {
+                chatbotWindow.classList.add('is-open');
+                setTimeout(() => chatbotInput.focus(), 100);
+            }
         });
     }
 
-    faqSearch.addEventListener('input', (e) => {
-        faqSearchQuery = e.target.value.trim();
-        renderFaq();
-    });
+    const faqList = document.getElementById('faqList');
+    const faqSearch = document.getElementById('faqSearch');
+    const faqCounter = document.getElementById('faqCounter');
+    const faqEmpty = document.getElementById('faqEmpty');
+    const faqFilterBtns = document.querySelectorAll('.dict-filter');
 
-    faqFilterBtns.forEach(btn => {
-        btn.addEventListener('click', () => {
-            activeFaqCategory = btn.dataset.category;
-            faqFilterBtns.forEach(b => b.classList.remove('dict-filter--active'));
-            btn.classList.add('dict-filter--active');
+    if (faqList && faqSearch) {
+        const faqItems = [
+            { category: 'general', question: 'Что такое статик?', answer: 'Статик — это твой уникальный номер в системе ВС РФ. Формат: XXX-XXX (например, 583-362). Он нужен для всех отчётов и рапортов.' },
+            { category: 'general', question: 'Что такое todo?', answer: 'todo — это фиксация начала или окончания занятия. Её нужно откидывать в чат «Рядом». Отписывается дважды: в начале и в конце лекции.' },
+            { category: 'general', question: 'Что такое бодикамера и когда её включать?', answer: 'Бодикамера используется для фиксации служебной деятельности: поставок, лекций, тренировок, МП/ГМП. Включай её при входе в игру и после потери сознания.' },
+            { category: 'general', question: 'Что такое рация и как ей пользоваться?', answer: 'Рация — основной канал голосовой связи в игре. Формат вызова: «УБ | [текст сообщения]». Текст пишется в верхнем регистре.' },
+            { category: 'general', question: 'Что такое коды реагирования?', answer: 'Коды реагирования — система для быстрой оценки ситуации. Всего 4 кода: КОД-1 (штатный), КОД-2 (нарушение), КОД-3 (нападение), КОД-4 (тревога).' },
+            { category: 'learning', question: 'Как проходят лекции?', answer: 'Лектор оповещает в рацию и Discord, собирает личный состав в лекционной, просит зафиксировать todo, включает демонстрацию экрана и проводит занятие. Минимальное время — 10 минут.' },
+            { category: 'learning', question: 'Что делать, если я пропустил лекцию?', answer: 'Обратись к инструктору или командиру отделения. Лекция будет проведена повторно при достаточном количестве желающих. Самостоятельное изучение материалов не заменяет лекцию.' },
+            { category: 'learning', question: 'Как проходит экзамен?', answer: 'Экзамен состоит из 40 вопросов, время — 15 минут. Проходной балл — 28 из 40. Разрешено 3 подсказки от лектора.' },
+            { category: 'learning', question: 'Сколько попыток на экзамене?', answer: 'У тебя есть 3 попытки. КД на пересдачу — 3 часа. Если не сдал все 3 попытки, обращайся к инструктору.' },
+            { category: 'learning', question: 'Что такое присяга и когда её принимают?', answer: 'Присяга — торжественная клятва на верность ВС РФ. Текст нужно знать наизусть. Принимается на первом этапе обучения, до получения первого повышения.' },
+            { category: 'promotion', question: 'Как получить звание Ефрейтор?', answer: 'Для УР: вступительная лекция, присяга, устав, КПС, строевая, физподготовка, пост 60 мин, 2 поставки. Для ВА: вступительная лекция, присяга, устав, КПС, пост 60 мин, 3 поставки.' },
+            { category: 'promotion', question: 'Сколько поставок нужно для повышения?', answer: 'УР: Рядовой→Ефрейтор = 2, Ефрейтор→Мл.сержант = 4. ВА: Рядовой→Ефрейтор = 3, Ефрейтор→Мл.сержант = 6, Мл.сержант→Сержант = 6.' },
+            { category: 'promotion', question: 'Когда подаются отчёты на повышение?', answer: 'Отчёты подаются ежедневно до 23:00. Отчёты, поданные до 23:00, рассматриваются в тот же день. После 23:00 — на следующий день. Повышение проводится с 21:00 до 00:00.' },
+            { category: 'promotion', question: 'Что такое Сейф-документов?', answer: 'Сейф-документов — Discord-канал, куда подаются документы после выполнения критериев первого повышения. Ссылка на Google-форму есть на странице «Повышение».' },
+            { category: 'promotion', question: 'Как подать рапорт на повышение?', answer: 'После выполнения всех критериев заполни Google-форму рапорта (ссылка на странице «Повышение»). Рапорт подаётся строго по установленному образцу.' },
+            { category: 'service', question: 'Какие есть посты?', answer: 'Основные посты: КПП-1, КПП-2, Вышка, Штаб, КПП-1 (проходная). Для первого повышения (Рядовой→Ефрейтор) нужен пост КПП-1 проходная или Штаб.' },
+            { category: 'service', question: 'Как правильно докладывать на посту?', answer: 'Доклады подаются каждые 20 минут. Формат: «Докладывает: Рядовой Иванов | Пост КПП-1 заступил | Состав: 1 | Код: 1 | Доклад окончен». Всего 5 докладов за смену.' },
+            { category: 'service', question: 'Что такое поставки?', answer: 'Поставки — доставка грузов на объекты (МС, РЛС, Об7 и др.). Для повышения нужны скриншоты с бодикамерой. 1 скриншот = 1 поставка.' },
+            { category: 'service', question: 'Какие требования к скриншотам поставок?', answer: 'Скриншот всего экрана. На нём должен быть виден ящик в руках или жёлтая линия поставки. Бодикамера обязательно включена. 1 скриншот = 1 поставка.' },
+            { category: 'service', question: 'Что такое жёлтая и красная зоны?', answer: 'Жёлтая зона — территория перед КПП (проверка документов). Красная зона — внутренняя территория ВЧ. Любое проникновение в красную зону считается угрозой.' },
+            { category: 'discord', question: 'Как получить роль в Discord?', answer: 'Перейди по ссылке discord.gg/R8gZc3x7ut. В канале «Получение роли» нажми кнопку «ВС РФ», заполни Фамилию, Имя и статик, затем нажми «Отправить».' },
+            { category: 'discord', question: 'Какие каналы есть в Discord?', answer: 'Основные каналы: информационный (приказы и объявления), отчётность (рапорты и заявки), голосовые (лекции и тренировки), учебный (материалы).' },
+            { category: 'discord', question: 'Куда подавать отчёты?', answer: 'Отчёты на повышение подаются в специальный канал Discord. После выполнения критериев заполни Google-форму рапорта и подай отчёт в соответствующий раздел.' },
+            { category: 'discord', question: 'К кому обращаться, если возникла проблема?', answer: 'Сначала к своему непосредственному командиру (Командир УР или Начальник ВА). Если проблема не решается — к заместителю командира УБ. Подробнее на странице «Командование».' }
+        ];
+
+        let activeFaqCategory = 'all';
+        let faqSearchQuery = '';
+
+        function renderFaq() {
+            faqList.innerHTML = '';
+            const filtered = faqItems.filter(item => {
+                const matchesCategory = activeFaqCategory === 'all' || item.category === activeFaqCategory;
+                const q = faqSearchQuery.toLowerCase();
+                const matchesQuery = !q ||
+                    item.question.toLowerCase().includes(q) ||
+                    item.answer.toLowerCase().includes(q);
+                return matchesCategory && matchesQuery;
+            });
+            if (faqCounter) {
+                faqCounter.textContent = `Найдено: ${filtered.length}`;
+            }
+            if (filtered.length === 0) {
+                if (faqEmpty) faqEmpty.style.display = 'block';
+                faqList.style.display = 'none';
+                return;
+            }
+            if (faqEmpty) faqEmpty.style.display = 'none';
+            faqList.style.display = 'block';
+            filtered.forEach((item, index) => {
+                const faqItem = document.createElement('div');
+                faqItem.className = 'faq-item';
+                faqItem.innerHTML = `
+                    <button class="faq-item__question" data-index="${index}">
+                        <span>${item.question}</span>
+                        <span class="faq-item__arrow">▼</span>
+                    </button>
+                    <div class="faq-item__answer">
+                        <p>${item.answer}</p>
+                    </div>
+                `;
+                faqList.appendChild(faqItem);
+            });
+            document.querySelectorAll('.faq-item__question').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const item = btn.closest('.faq-item');
+                    const isOpen = item.classList.contains('is-open');
+                    document.querySelectorAll('.faq-item').forEach(i => {
+                        i.classList.remove('is-open');
+                    });
+                    if (!isOpen) {
+                        item.classList.add('is-open');
+                    }
+                });
+            });
+        }
+
+        faqSearch.addEventListener('input', (e) => {
+            faqSearchQuery = e.target.value.trim();
             renderFaq();
         });
-    });
 
-    renderFaq();
-}
+        faqFilterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                activeFaqCategory = btn.dataset.category;
+                faqFilterBtns.forEach(b => b.classList.remove('dict-filter--active'));
+                btn.classList.add('dict-filter--active');
+                renderFaq();
+            });
+        });
 
-/* ---------- КНОПКА ОТКРЫТИЯ ЧАТ-БОТА (со страницы FAQ) ---------- */
-const openChatbotFromFaq = document.getElementById('openChatbotFromFaq');
-if (openChatbotFromFaq) {
-    openChatbotFromFaq.addEventListener('click', () => {
-        const chatbotWindow = document.getElementById('chatbotWindow');
-        const chatbotInput = document.getElementById('chatbotInput');
-        if (chatbotWindow) {
-            chatbotWindow.classList.add('is-open');
-            setTimeout(() => chatbotInput.focus(), 100);
-        }
-    });
-}
+        renderFaq();
+    }
+
+    const openChatbotFromFaq = document.getElementById('openChatbotFromFaq');
+    if (openChatbotFromFaq) {
+        openChatbotFromFaq.addEventListener('click', () => {
+            const chatbotWindow = document.getElementById('chatbotWindow');
+            const chatbotInput = document.getElementById('chatbotInput');
+            if (chatbotWindow) {
+                chatbotWindow.classList.add('is-open');
+                setTimeout(() => chatbotInput.focus(), 100);
+            }
+        });
+    }
 });
